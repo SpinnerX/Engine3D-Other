@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "name": "3DConsoleEngine",
+            "includePath": [
+                "${default}",
+                "${workspaceFolder}/GameEngine/include/GameEngine/**",
+                "/usr/local/include/glad/**",
+                "/usr/local/include/imgui/**"
+            ],
+            "defines": [],
+            "macFrameworkPath": [
+                "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
+            ],
+            "intelliSenseMode": "macos-clang-arm64",
+            "cppStandard": "c++20",
+            "cStandard": "c23",
+            "configurationProvider": "ms-vscode.cmake-tools",
+            "compileCommands": "${workspaceFolder}/build/compile_commands.json"
+        }
+    ],
+    "version": 4
+}

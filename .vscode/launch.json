@@ -1,0 +1,23 @@
+{
+
+    "configurations": [
+        {
+            "name": "Game Engine Debugger",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/SandBox/SandBox",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            // since Windows/Ubuntu uses thhe gdb debugger
+            // Mac OS uses thhe lldb debugger instead of gdb
+            // Comment lldb - if you are on Ubuntu/Windows
+            // Comment gdb and use lldb - if you are on Mac OS
+            // "MIMode": "gdb" // Change this to a specific debugger (very OS dependent if mac use lldb, if linux/windows use gdb)
+            "MIMode": "lldb"
+        }
+    ],
+    "version": "2.0.0",
+}

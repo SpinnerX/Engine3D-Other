@@ -1,0 +1,824 @@
+[
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/src",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/Engine3D.dir/includes_CXX.rsp -g -std=c++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Engine3D.dir\\Engine3D\\Core\\Application.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\src\\Engine3D\\Core\\Application.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/src/Engine3D/Core/Application.cpp",
+  "output": "src/CMakeFiles/Engine3D.dir/Engine3D/Core/Application.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/src",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/Engine3D.dir/includes_CXX.rsp -g -std=c++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Engine3D.dir\\Engine3D\\Core\\EngineLogger.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\src\\Engine3D\\Core\\EngineLogger.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/src/Engine3D/Core/EngineLogger.cpp",
+  "output": "src/CMakeFiles/Engine3D.dir/Engine3D/Core/EngineLogger.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/src",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/Engine3D.dir/includes_CXX.rsp -g -std=c++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Engine3D.dir\\Engine3D\\Core\\EntryPoint.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\src\\Engine3D\\Core\\EntryPoint.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/src/Engine3D/Core/EntryPoint.cpp",
+  "output": "src/CMakeFiles/Engine3D.dir/Engine3D/Core/EntryPoint.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/src",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/Engine3D.dir/includes_CXX.rsp -g -std=c++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Engine3D.dir\\Engine3D\\OpenGL\\OpenGLInputPoll.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\src\\Engine3D\\OpenGL\\OpenGLInputPoll.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/src/Engine3D/OpenGL/OpenGLInputPoll.cpp",
+  "output": "src/CMakeFiles/Engine3D.dir/Engine3D/OpenGL/OpenGLInputPoll.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/src",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/Engine3D.dir/includes_CXX.rsp -g -std=c++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Engine3D.dir\\Engine3D\\OpenGL\\OpenGLWindow.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\src\\Engine3D\\OpenGL\\OpenGLWindow.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/src/Engine3D/OpenGL/OpenGLWindow.cpp",
+  "output": "src/CMakeFiles/Engine3D.dir/Engine3D/OpenGL/OpenGLWindow.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/src",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/Engine3D.dir/includes_CXX.rsp -g -std=c++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Engine3D.dir\\Engine3D\\Core\\Layer.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\src\\Engine3D\\Core\\Layer.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/src/Engine3D/Core/Layer.cpp",
+  "output": "src/CMakeFiles/Engine3D.dir/Engine3D/Core/Layer.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/src",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/Engine3D.dir/includes_CXX.rsp -g -std=c++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Engine3D.dir\\Engine3D\\Core\\LayerStack.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\src\\Engine3D\\Core\\LayerStack.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/src/Engine3D/Core/LayerStack.cpp",
+  "output": "src/CMakeFiles/Engine3D.dir/Engine3D/Core/LayerStack.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/src",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/Engine3D.dir/includes_CXX.rsp -g -std=c++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Engine3D.dir\\Engine3D\\OpenGL\\OpenGLBuffer.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\src\\Engine3D\\OpenGL\\OpenGLBuffer.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/src/Engine3D/OpenGL/OpenGLBuffer.cpp",
+  "output": "src/CMakeFiles/Engine3D.dir/Engine3D/OpenGL/OpenGLBuffer.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/src",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/Engine3D.dir/includes_CXX.rsp -g -std=c++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Engine3D.dir\\Engine3D\\OpenGL\\OpenGLShader.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\src\\Engine3D\\OpenGL\\OpenGLShader.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/src/Engine3D/OpenGL/OpenGLShader.cpp",
+  "output": "src/CMakeFiles/Engine3D.dir/Engine3D/OpenGL/OpenGLShader.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/src",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/Engine3D.dir/includes_CXX.rsp -g -std=c++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Engine3D.dir\\Engine3D\\OpenGL\\OpenGLVertexArray.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\src\\Engine3D\\OpenGL\\OpenGLVertexArray.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/src/Engine3D/OpenGL/OpenGLVertexArray.cpp",
+  "output": "src/CMakeFiles/Engine3D.dir/Engine3D/OpenGL/OpenGLVertexArray.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/src",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/Engine3D.dir/includes_CXX.rsp -g -std=c++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Engine3D.dir\\Engine3D\\Renderer\\Renderer.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\src\\Engine3D\\Renderer\\Renderer.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/src/Engine3D/Renderer/Renderer.cpp",
+  "output": "src/CMakeFiles/Engine3D.dir/Engine3D/Renderer/Renderer.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/src",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/Engine3D.dir/includes_CXX.rsp -g -std=c++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Engine3D.dir\\Engine3D\\Image\\stb_image.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\src\\Engine3D\\Image\\stb_image.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/src/Engine3D/Image/stb_image.cpp",
+  "output": "src/CMakeFiles/Engine3D.dir/Engine3D/Image/stb_image.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/Sandbox-Internal",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/Sandbox-Internal.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Sandbox-Internal.dir\\Application.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\Sandbox-Internal\\Application.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/Sandbox-Internal/Application.cpp",
+  "output": "Sandbox-Internal/CMakeFiles/Sandbox-Internal.dir/Application.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/glfw/src",
+  "command": "C:\\msys64\\mingw64\\bin\\clang.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\context.c.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\glfw\\src\\context.c",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/glfw/src/context.c",
+  "output": "external/glfw/src/CMakeFiles/glfw.dir/context.c.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/glfw/src",
+  "command": "C:\\msys64\\mingw64\\bin\\clang.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\init.c.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\glfw\\src\\init.c",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/glfw/src/init.c",
+  "output": "external/glfw/src/CMakeFiles/glfw.dir/init.c.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/glfw/src",
+  "command": "C:\\msys64\\mingw64\\bin\\clang.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\input.c.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\glfw\\src\\input.c",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/glfw/src/input.c",
+  "output": "external/glfw/src/CMakeFiles/glfw.dir/input.c.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/glfw/src",
+  "command": "C:\\msys64\\mingw64\\bin\\clang.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\monitor.c.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\glfw\\src\\monitor.c",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/glfw/src/monitor.c",
+  "output": "external/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/glfw/src",
+  "command": "C:\\msys64\\mingw64\\bin\\clang.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\platform.c.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\glfw\\src\\platform.c",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/glfw/src/platform.c",
+  "output": "external/glfw/src/CMakeFiles/glfw.dir/platform.c.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/glfw/src",
+  "command": "C:\\msys64\\mingw64\\bin\\clang.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\vulkan.c.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\glfw\\src\\vulkan.c",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/glfw/src/vulkan.c",
+  "output": "external/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/glfw/src",
+  "command": "C:\\msys64\\mingw64\\bin\\clang.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\window.c.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\glfw\\src\\window.c",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/glfw/src/window.c",
+  "output": "external/glfw/src/CMakeFiles/glfw.dir/window.c.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/glfw/src",
+  "command": "C:\\msys64\\mingw64\\bin\\clang.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\egl_context.c.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\glfw\\src\\egl_context.c",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/glfw/src/egl_context.c",
+  "output": "external/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/glfw/src",
+  "command": "C:\\msys64\\mingw64\\bin\\clang.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\osmesa_context.c.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\glfw\\src\\osmesa_context.c",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/glfw/src/osmesa_context.c",
+  "output": "external/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/glfw/src",
+  "command": "C:\\msys64\\mingw64\\bin\\clang.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\null_init.c.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\glfw\\src\\null_init.c",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/glfw/src/null_init.c",
+  "output": "external/glfw/src/CMakeFiles/glfw.dir/null_init.c.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/glfw/src",
+  "command": "C:\\msys64\\mingw64\\bin\\clang.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\null_monitor.c.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\glfw\\src\\null_monitor.c",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/glfw/src/null_monitor.c",
+  "output": "external/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/glfw/src",
+  "command": "C:\\msys64\\mingw64\\bin\\clang.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\null_window.c.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\glfw\\src\\null_window.c",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/glfw/src/null_window.c",
+  "output": "external/glfw/src/CMakeFiles/glfw.dir/null_window.c.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/glfw/src",
+  "command": "C:\\msys64\\mingw64\\bin\\clang.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\null_joystick.c.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\glfw\\src\\null_joystick.c",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/glfw/src/null_joystick.c",
+  "output": "external/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/glfw/src",
+  "command": "C:\\msys64\\mingw64\\bin\\clang.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\win32_module.c.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\glfw\\src\\win32_module.c",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/glfw/src/win32_module.c",
+  "output": "external/glfw/src/CMakeFiles/glfw.dir/win32_module.c.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/glfw/src",
+  "command": "C:\\msys64\\mingw64\\bin\\clang.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\win32_time.c.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\glfw\\src\\win32_time.c",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/glfw/src/win32_time.c",
+  "output": "external/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/glfw/src",
+  "command": "C:\\msys64\\mingw64\\bin\\clang.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\win32_thread.c.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\glfw\\src\\win32_thread.c",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/glfw/src/win32_thread.c",
+  "output": "external/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/glfw/src",
+  "command": "C:\\msys64\\mingw64\\bin\\clang.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\win32_init.c.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\glfw\\src\\win32_init.c",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/glfw/src/win32_init.c",
+  "output": "external/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/glfw/src",
+  "command": "C:\\msys64\\mingw64\\bin\\clang.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\win32_joystick.c.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\glfw\\src\\win32_joystick.c",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/glfw/src/win32_joystick.c",
+  "output": "external/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/glfw/src",
+  "command": "C:\\msys64\\mingw64\\bin\\clang.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\win32_monitor.c.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\glfw\\src\\win32_monitor.c",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/glfw/src/win32_monitor.c",
+  "output": "external/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/glfw/src",
+  "command": "C:\\msys64\\mingw64\\bin\\clang.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\win32_window.c.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\glfw\\src\\win32_window.c",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/glfw/src/win32_window.c",
+  "output": "external/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/glfw/src",
+  "command": "C:\\msys64\\mingw64\\bin\\clang.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\wgl_context.c.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\glfw\\src\\wgl_context.c",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/glfw/src/wgl_context.c",
+  "output": "external/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/glm/glm",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe  @CMakeFiles/glm.dir/includes_CXX.rsp -g -std=c++20 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-c++98-compat -Wno-c++98-compat-pedantic -o CMakeFiles\\glm.dir\\detail\\glm.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\glm\\glm\\detail\\glm.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/glm/glm/detail/glm.cpp",
+  "output": "external/glm/glm/CMakeFiles/glm.dir/detail/glm.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/yaml-cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe -DYAML_CPP_STATIC_DEFINE @CMakeFiles/yaml-cpp.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\yaml-cpp.dir\\src\\contrib\\graphbuilder.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\yaml-cpp\\src\\contrib\\graphbuilder.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/yaml-cpp/src/contrib/graphbuilder.cpp",
+  "output": "external/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilder.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/yaml-cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe -DYAML_CPP_STATIC_DEFINE @CMakeFiles/yaml-cpp.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\yaml-cpp.dir\\src\\contrib\\graphbuilderadapter.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\yaml-cpp\\src\\contrib\\graphbuilderadapter.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/yaml-cpp/src/contrib/graphbuilderadapter.cpp",
+  "output": "external/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilderadapter.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/yaml-cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe -DYAML_CPP_STATIC_DEFINE @CMakeFiles/yaml-cpp.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\yaml-cpp.dir\\src\\binary.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\yaml-cpp\\src\\binary.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/yaml-cpp/src/binary.cpp",
+  "output": "external/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/binary.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/yaml-cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe -DYAML_CPP_STATIC_DEFINE @CMakeFiles/yaml-cpp.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\yaml-cpp.dir\\src\\convert.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\yaml-cpp\\src\\convert.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/yaml-cpp/src/convert.cpp",
+  "output": "external/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/convert.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/yaml-cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe -DYAML_CPP_STATIC_DEFINE @CMakeFiles/yaml-cpp.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\yaml-cpp.dir\\src\\depthguard.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\yaml-cpp\\src\\depthguard.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/yaml-cpp/src/depthguard.cpp",
+  "output": "external/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/depthguard.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/yaml-cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe -DYAML_CPP_STATIC_DEFINE @CMakeFiles/yaml-cpp.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\yaml-cpp.dir\\src\\directives.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\yaml-cpp\\src\\directives.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/yaml-cpp/src/directives.cpp",
+  "output": "external/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/directives.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/yaml-cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe -DYAML_CPP_STATIC_DEFINE @CMakeFiles/yaml-cpp.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\yaml-cpp.dir\\src\\emit.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\yaml-cpp\\src\\emit.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/yaml-cpp/src/emit.cpp",
+  "output": "external/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/emit.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/yaml-cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe -DYAML_CPP_STATIC_DEFINE @CMakeFiles/yaml-cpp.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\yaml-cpp.dir\\src\\emitfromevents.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\yaml-cpp\\src\\emitfromevents.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/yaml-cpp/src/emitfromevents.cpp",
+  "output": "external/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/emitfromevents.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/yaml-cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe -DYAML_CPP_STATIC_DEFINE @CMakeFiles/yaml-cpp.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\yaml-cpp.dir\\src\\emitter.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\yaml-cpp\\src\\emitter.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/yaml-cpp/src/emitter.cpp",
+  "output": "external/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/emitter.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/yaml-cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe -DYAML_CPP_STATIC_DEFINE @CMakeFiles/yaml-cpp.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\yaml-cpp.dir\\src\\emitterstate.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\yaml-cpp\\src\\emitterstate.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/yaml-cpp/src/emitterstate.cpp",
+  "output": "external/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/emitterstate.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/yaml-cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe -DYAML_CPP_STATIC_DEFINE @CMakeFiles/yaml-cpp.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\yaml-cpp.dir\\src\\emitterutils.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\yaml-cpp\\src\\emitterutils.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/yaml-cpp/src/emitterutils.cpp",
+  "output": "external/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/emitterutils.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/yaml-cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe -DYAML_CPP_STATIC_DEFINE @CMakeFiles/yaml-cpp.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\yaml-cpp.dir\\src\\exceptions.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\yaml-cpp\\src\\exceptions.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/yaml-cpp/src/exceptions.cpp",
+  "output": "external/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/exceptions.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/yaml-cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe -DYAML_CPP_STATIC_DEFINE @CMakeFiles/yaml-cpp.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\yaml-cpp.dir\\src\\exp.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\yaml-cpp\\src\\exp.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/yaml-cpp/src/exp.cpp",
+  "output": "external/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/exp.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/yaml-cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe -DYAML_CPP_STATIC_DEFINE @CMakeFiles/yaml-cpp.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\yaml-cpp.dir\\src\\memory.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\yaml-cpp\\src\\memory.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/yaml-cpp/src/memory.cpp",
+  "output": "external/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/memory.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/yaml-cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe -DYAML_CPP_STATIC_DEFINE @CMakeFiles/yaml-cpp.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\yaml-cpp.dir\\src\\node.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\yaml-cpp\\src\\node.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/yaml-cpp/src/node.cpp",
+  "output": "external/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/node.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/yaml-cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe -DYAML_CPP_STATIC_DEFINE @CMakeFiles/yaml-cpp.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\yaml-cpp.dir\\src\\node_data.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\yaml-cpp\\src\\node_data.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/yaml-cpp/src/node_data.cpp",
+  "output": "external/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/node_data.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/yaml-cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe -DYAML_CPP_STATIC_DEFINE @CMakeFiles/yaml-cpp.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\yaml-cpp.dir\\src\\nodebuilder.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\yaml-cpp\\src\\nodebuilder.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/yaml-cpp/src/nodebuilder.cpp",
+  "output": "external/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/nodebuilder.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/yaml-cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe -DYAML_CPP_STATIC_DEFINE @CMakeFiles/yaml-cpp.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\yaml-cpp.dir\\src\\nodeevents.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\yaml-cpp\\src\\nodeevents.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/yaml-cpp/src/nodeevents.cpp",
+  "output": "external/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/nodeevents.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/yaml-cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe -DYAML_CPP_STATIC_DEFINE @CMakeFiles/yaml-cpp.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\yaml-cpp.dir\\src\\null.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\yaml-cpp\\src\\null.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/yaml-cpp/src/null.cpp",
+  "output": "external/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/null.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/yaml-cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe -DYAML_CPP_STATIC_DEFINE @CMakeFiles/yaml-cpp.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\yaml-cpp.dir\\src\\ostream_wrapper.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\yaml-cpp\\src\\ostream_wrapper.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/yaml-cpp/src/ostream_wrapper.cpp",
+  "output": "external/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/ostream_wrapper.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/yaml-cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe -DYAML_CPP_STATIC_DEFINE @CMakeFiles/yaml-cpp.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\yaml-cpp.dir\\src\\parse.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\yaml-cpp\\src\\parse.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/yaml-cpp/src/parse.cpp",
+  "output": "external/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/parse.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/yaml-cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe -DYAML_CPP_STATIC_DEFINE @CMakeFiles/yaml-cpp.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\yaml-cpp.dir\\src\\parser.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\yaml-cpp\\src\\parser.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/yaml-cpp/src/parser.cpp",
+  "output": "external/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/parser.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/yaml-cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe -DYAML_CPP_STATIC_DEFINE @CMakeFiles/yaml-cpp.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\yaml-cpp.dir\\src\\regex_yaml.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\yaml-cpp\\src\\regex_yaml.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/yaml-cpp/src/regex_yaml.cpp",
+  "output": "external/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/regex_yaml.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/yaml-cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe -DYAML_CPP_STATIC_DEFINE @CMakeFiles/yaml-cpp.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\yaml-cpp.dir\\src\\scanner.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\yaml-cpp\\src\\scanner.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/yaml-cpp/src/scanner.cpp",
+  "output": "external/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/scanner.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/yaml-cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe -DYAML_CPP_STATIC_DEFINE @CMakeFiles/yaml-cpp.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\yaml-cpp.dir\\src\\scanscalar.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\yaml-cpp\\src\\scanscalar.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/yaml-cpp/src/scanscalar.cpp",
+  "output": "external/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/scanscalar.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/yaml-cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe -DYAML_CPP_STATIC_DEFINE @CMakeFiles/yaml-cpp.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\yaml-cpp.dir\\src\\scantag.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\yaml-cpp\\src\\scantag.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/yaml-cpp/src/scantag.cpp",
+  "output": "external/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/scantag.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/yaml-cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe -DYAML_CPP_STATIC_DEFINE @CMakeFiles/yaml-cpp.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\yaml-cpp.dir\\src\\scantoken.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\yaml-cpp\\src\\scantoken.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/yaml-cpp/src/scantoken.cpp",
+  "output": "external/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/scantoken.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/yaml-cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe -DYAML_CPP_STATIC_DEFINE @CMakeFiles/yaml-cpp.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\yaml-cpp.dir\\src\\simplekey.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\yaml-cpp\\src\\simplekey.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/yaml-cpp/src/simplekey.cpp",
+  "output": "external/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/simplekey.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/yaml-cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe -DYAML_CPP_STATIC_DEFINE @CMakeFiles/yaml-cpp.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\yaml-cpp.dir\\src\\singledocparser.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\yaml-cpp\\src\\singledocparser.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/yaml-cpp/src/singledocparser.cpp",
+  "output": "external/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/singledocparser.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/yaml-cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe -DYAML_CPP_STATIC_DEFINE @CMakeFiles/yaml-cpp.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\yaml-cpp.dir\\src\\stream.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\yaml-cpp\\src\\stream.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/yaml-cpp/src/stream.cpp",
+  "output": "external/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/stream.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/yaml-cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe -DYAML_CPP_STATIC_DEFINE @CMakeFiles/yaml-cpp.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\yaml-cpp.dir\\src\\tag.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\yaml-cpp\\src\\tag.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/yaml-cpp/src/tag.cpp",
+  "output": "external/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/tag.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/yaml-cpp/util",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe -DYAML_CPP_STATIC_DEFINE @CMakeFiles/yaml-cpp-sandbox.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\yaml-cpp-sandbox.dir\\sandbox.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\yaml-cpp\\util\\sandbox.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/yaml-cpp/util/sandbox.cpp",
+  "output": "external/yaml-cpp/util/CMakeFiles/yaml-cpp-sandbox.dir/sandbox.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/yaml-cpp/util",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe -DYAML_CPP_STATIC_DEFINE @CMakeFiles/yaml-cpp-parse.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\yaml-cpp-parse.dir\\parse.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\yaml-cpp\\util\\parse.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/yaml-cpp/util/parse.cpp",
+  "output": "external/yaml-cpp/util/CMakeFiles/yaml-cpp-parse.dir/parse.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/yaml-cpp/util",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe -DYAML_CPP_STATIC_DEFINE @CMakeFiles/yaml-cpp-read.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\yaml-cpp-read.dir\\read.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\yaml-cpp\\util\\read.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/yaml-cpp/util/read.cpp",
+  "output": "external/yaml-cpp/util/CMakeFiles/yaml-cpp-read.dir/read.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/Box2D-cmake",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe  @CMakeFiles/Box2D-cmake.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Box2D-cmake.dir\\Box2D\\Box2D\\Collision\\b2BroadPhase.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\Box2D-cmake\\Box2D\\Box2D\\Collision\\b2BroadPhase.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/Box2D-cmake/Box2D/Box2D/Collision/b2BroadPhase.cpp",
+  "output": "external/Box2D-cmake/CMakeFiles/Box2D-cmake.dir/Box2D/Box2D/Collision/b2BroadPhase.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/Box2D-cmake",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe  @CMakeFiles/Box2D-cmake.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Box2D-cmake.dir\\Box2D\\Box2D\\Collision\\b2CollideCircle.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\Box2D-cmake\\Box2D\\Box2D\\Collision\\b2CollideCircle.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/Box2D-cmake/Box2D/Box2D/Collision/b2CollideCircle.cpp",
+  "output": "external/Box2D-cmake/CMakeFiles/Box2D-cmake.dir/Box2D/Box2D/Collision/b2CollideCircle.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/Box2D-cmake",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe  @CMakeFiles/Box2D-cmake.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Box2D-cmake.dir\\Box2D\\Box2D\\Collision\\b2CollideEdge.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\Box2D-cmake\\Box2D\\Box2D\\Collision\\b2CollideEdge.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/Box2D-cmake/Box2D/Box2D/Collision/b2CollideEdge.cpp",
+  "output": "external/Box2D-cmake/CMakeFiles/Box2D-cmake.dir/Box2D/Box2D/Collision/b2CollideEdge.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/Box2D-cmake",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe  @CMakeFiles/Box2D-cmake.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Box2D-cmake.dir\\Box2D\\Box2D\\Collision\\b2CollidePolygon.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\Box2D-cmake\\Box2D\\Box2D\\Collision\\b2CollidePolygon.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/Box2D-cmake/Box2D/Box2D/Collision/b2CollidePolygon.cpp",
+  "output": "external/Box2D-cmake/CMakeFiles/Box2D-cmake.dir/Box2D/Box2D/Collision/b2CollidePolygon.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/Box2D-cmake",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe  @CMakeFiles/Box2D-cmake.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Box2D-cmake.dir\\Box2D\\Box2D\\Collision\\b2Collision.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\Box2D-cmake\\Box2D\\Box2D\\Collision\\b2Collision.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/Box2D-cmake/Box2D/Box2D/Collision/b2Collision.cpp",
+  "output": "external/Box2D-cmake/CMakeFiles/Box2D-cmake.dir/Box2D/Box2D/Collision/b2Collision.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/Box2D-cmake",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe  @CMakeFiles/Box2D-cmake.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Box2D-cmake.dir\\Box2D\\Box2D\\Collision\\b2Distance.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\Box2D-cmake\\Box2D\\Box2D\\Collision\\b2Distance.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/Box2D-cmake/Box2D/Box2D/Collision/b2Distance.cpp",
+  "output": "external/Box2D-cmake/CMakeFiles/Box2D-cmake.dir/Box2D/Box2D/Collision/b2Distance.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/Box2D-cmake",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe  @CMakeFiles/Box2D-cmake.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Box2D-cmake.dir\\Box2D\\Box2D\\Collision\\b2DynamicTree.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\Box2D-cmake\\Box2D\\Box2D\\Collision\\b2DynamicTree.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/Box2D-cmake/Box2D/Box2D/Collision/b2DynamicTree.cpp",
+  "output": "external/Box2D-cmake/CMakeFiles/Box2D-cmake.dir/Box2D/Box2D/Collision/b2DynamicTree.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/Box2D-cmake",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe  @CMakeFiles/Box2D-cmake.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Box2D-cmake.dir\\Box2D\\Box2D\\Collision\\b2TimeOfImpact.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\Box2D-cmake\\Box2D\\Box2D\\Collision\\b2TimeOfImpact.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/Box2D-cmake/Box2D/Box2D/Collision/b2TimeOfImpact.cpp",
+  "output": "external/Box2D-cmake/CMakeFiles/Box2D-cmake.dir/Box2D/Box2D/Collision/b2TimeOfImpact.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/Box2D-cmake",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe  @CMakeFiles/Box2D-cmake.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Box2D-cmake.dir\\Box2D\\Box2D\\Collision\\Shapes\\b2ChainShape.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\Box2D-cmake\\Box2D\\Box2D\\Collision\\Shapes\\b2ChainShape.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/Box2D-cmake/Box2D/Box2D/Collision/Shapes/b2ChainShape.cpp",
+  "output": "external/Box2D-cmake/CMakeFiles/Box2D-cmake.dir/Box2D/Box2D/Collision/Shapes/b2ChainShape.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/Box2D-cmake",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe  @CMakeFiles/Box2D-cmake.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Box2D-cmake.dir\\Box2D\\Box2D\\Collision\\Shapes\\b2CircleShape.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\Box2D-cmake\\Box2D\\Box2D\\Collision\\Shapes\\b2CircleShape.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/Box2D-cmake/Box2D/Box2D/Collision/Shapes/b2CircleShape.cpp",
+  "output": "external/Box2D-cmake/CMakeFiles/Box2D-cmake.dir/Box2D/Box2D/Collision/Shapes/b2CircleShape.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/Box2D-cmake",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe  @CMakeFiles/Box2D-cmake.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Box2D-cmake.dir\\Box2D\\Box2D\\Collision\\Shapes\\b2EdgeShape.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\Box2D-cmake\\Box2D\\Box2D\\Collision\\Shapes\\b2EdgeShape.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/Box2D-cmake/Box2D/Box2D/Collision/Shapes/b2EdgeShape.cpp",
+  "output": "external/Box2D-cmake/CMakeFiles/Box2D-cmake.dir/Box2D/Box2D/Collision/Shapes/b2EdgeShape.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/Box2D-cmake",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe  @CMakeFiles/Box2D-cmake.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Box2D-cmake.dir\\Box2D\\Box2D\\Collision\\Shapes\\b2PolygonShape.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\Box2D-cmake\\Box2D\\Box2D\\Collision\\Shapes\\b2PolygonShape.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/Box2D-cmake/Box2D/Box2D/Collision/Shapes/b2PolygonShape.cpp",
+  "output": "external/Box2D-cmake/CMakeFiles/Box2D-cmake.dir/Box2D/Box2D/Collision/Shapes/b2PolygonShape.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/Box2D-cmake",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe  @CMakeFiles/Box2D-cmake.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Box2D-cmake.dir\\Box2D\\Box2D\\Common\\b2BlockAllocator.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\Box2D-cmake\\Box2D\\Box2D\\Common\\b2BlockAllocator.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/Box2D-cmake/Box2D/Box2D/Common/b2BlockAllocator.cpp",
+  "output": "external/Box2D-cmake/CMakeFiles/Box2D-cmake.dir/Box2D/Box2D/Common/b2BlockAllocator.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/Box2D-cmake",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe  @CMakeFiles/Box2D-cmake.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Box2D-cmake.dir\\Box2D\\Box2D\\Common\\b2Draw.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\Box2D-cmake\\Box2D\\Box2D\\Common\\b2Draw.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/Box2D-cmake/Box2D/Box2D/Common/b2Draw.cpp",
+  "output": "external/Box2D-cmake/CMakeFiles/Box2D-cmake.dir/Box2D/Box2D/Common/b2Draw.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/Box2D-cmake",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe  @CMakeFiles/Box2D-cmake.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Box2D-cmake.dir\\Box2D\\Box2D\\Common\\b2Math.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\Box2D-cmake\\Box2D\\Box2D\\Common\\b2Math.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/Box2D-cmake/Box2D/Box2D/Common/b2Math.cpp",
+  "output": "external/Box2D-cmake/CMakeFiles/Box2D-cmake.dir/Box2D/Box2D/Common/b2Math.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/Box2D-cmake",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe  @CMakeFiles/Box2D-cmake.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Box2D-cmake.dir\\Box2D\\Box2D\\Common\\b2Settings.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\Box2D-cmake\\Box2D\\Box2D\\Common\\b2Settings.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/Box2D-cmake/Box2D/Box2D/Common/b2Settings.cpp",
+  "output": "external/Box2D-cmake/CMakeFiles/Box2D-cmake.dir/Box2D/Box2D/Common/b2Settings.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/Box2D-cmake",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe  @CMakeFiles/Box2D-cmake.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Box2D-cmake.dir\\Box2D\\Box2D\\Common\\b2StackAllocator.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\Box2D-cmake\\Box2D\\Box2D\\Common\\b2StackAllocator.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/Box2D-cmake/Box2D/Box2D/Common/b2StackAllocator.cpp",
+  "output": "external/Box2D-cmake/CMakeFiles/Box2D-cmake.dir/Box2D/Box2D/Common/b2StackAllocator.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/Box2D-cmake",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe  @CMakeFiles/Box2D-cmake.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Box2D-cmake.dir\\Box2D\\Box2D\\Common\\b2Timer.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\Box2D-cmake\\Box2D\\Box2D\\Common\\b2Timer.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/Box2D-cmake/Box2D/Box2D/Common/b2Timer.cpp",
+  "output": "external/Box2D-cmake/CMakeFiles/Box2D-cmake.dir/Box2D/Box2D/Common/b2Timer.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/Box2D-cmake",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe  @CMakeFiles/Box2D-cmake.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Box2D-cmake.dir\\Box2D\\Box2D\\Dynamics\\Contacts\\b2ChainAndCircleContact.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\Box2D-cmake\\Box2D\\Box2D\\Dynamics\\Contacts\\b2ChainAndCircleContact.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/Box2D-cmake/Box2D/Box2D/Dynamics/Contacts/b2ChainAndCircleContact.cpp",
+  "output": "external/Box2D-cmake/CMakeFiles/Box2D-cmake.dir/Box2D/Box2D/Dynamics/Contacts/b2ChainAndCircleContact.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/Box2D-cmake",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe  @CMakeFiles/Box2D-cmake.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Box2D-cmake.dir\\Box2D\\Box2D\\Dynamics\\Contacts\\b2ChainAndPolygonContact.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\Box2D-cmake\\Box2D\\Box2D\\Dynamics\\Contacts\\b2ChainAndPolygonContact.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/Box2D-cmake/Box2D/Box2D/Dynamics/Contacts/b2ChainAndPolygonContact.cpp",
+  "output": "external/Box2D-cmake/CMakeFiles/Box2D-cmake.dir/Box2D/Box2D/Dynamics/Contacts/b2ChainAndPolygonContact.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/Box2D-cmake",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe  @CMakeFiles/Box2D-cmake.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Box2D-cmake.dir\\Box2D\\Box2D\\Dynamics\\Contacts\\b2CircleContact.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\Box2D-cmake\\Box2D\\Box2D\\Dynamics\\Contacts\\b2CircleContact.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/Box2D-cmake/Box2D/Box2D/Dynamics/Contacts/b2CircleContact.cpp",
+  "output": "external/Box2D-cmake/CMakeFiles/Box2D-cmake.dir/Box2D/Box2D/Dynamics/Contacts/b2CircleContact.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/Box2D-cmake",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe  @CMakeFiles/Box2D-cmake.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Box2D-cmake.dir\\Box2D\\Box2D\\Dynamics\\Contacts\\b2Contact.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\Box2D-cmake\\Box2D\\Box2D\\Dynamics\\Contacts\\b2Contact.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/Box2D-cmake/Box2D/Box2D/Dynamics/Contacts/b2Contact.cpp",
+  "output": "external/Box2D-cmake/CMakeFiles/Box2D-cmake.dir/Box2D/Box2D/Dynamics/Contacts/b2Contact.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/Box2D-cmake",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe  @CMakeFiles/Box2D-cmake.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Box2D-cmake.dir\\Box2D\\Box2D\\Dynamics\\Contacts\\b2ContactSolver.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\Box2D-cmake\\Box2D\\Box2D\\Dynamics\\Contacts\\b2ContactSolver.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/Box2D-cmake/Box2D/Box2D/Dynamics/Contacts/b2ContactSolver.cpp",
+  "output": "external/Box2D-cmake/CMakeFiles/Box2D-cmake.dir/Box2D/Box2D/Dynamics/Contacts/b2ContactSolver.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/Box2D-cmake",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe  @CMakeFiles/Box2D-cmake.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Box2D-cmake.dir\\Box2D\\Box2D\\Dynamics\\Contacts\\b2EdgeAndCircleContact.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\Box2D-cmake\\Box2D\\Box2D\\Dynamics\\Contacts\\b2EdgeAndCircleContact.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/Box2D-cmake/Box2D/Box2D/Dynamics/Contacts/b2EdgeAndCircleContact.cpp",
+  "output": "external/Box2D-cmake/CMakeFiles/Box2D-cmake.dir/Box2D/Box2D/Dynamics/Contacts/b2EdgeAndCircleContact.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/Box2D-cmake",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe  @CMakeFiles/Box2D-cmake.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Box2D-cmake.dir\\Box2D\\Box2D\\Dynamics\\Contacts\\b2EdgeAndPolygonContact.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\Box2D-cmake\\Box2D\\Box2D\\Dynamics\\Contacts\\b2EdgeAndPolygonContact.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/Box2D-cmake/Box2D/Box2D/Dynamics/Contacts/b2EdgeAndPolygonContact.cpp",
+  "output": "external/Box2D-cmake/CMakeFiles/Box2D-cmake.dir/Box2D/Box2D/Dynamics/Contacts/b2EdgeAndPolygonContact.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/Box2D-cmake",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe  @CMakeFiles/Box2D-cmake.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Box2D-cmake.dir\\Box2D\\Box2D\\Dynamics\\Contacts\\b2PolygonAndCircleContact.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\Box2D-cmake\\Box2D\\Box2D\\Dynamics\\Contacts\\b2PolygonAndCircleContact.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/Box2D-cmake/Box2D/Box2D/Dynamics/Contacts/b2PolygonAndCircleContact.cpp",
+  "output": "external/Box2D-cmake/CMakeFiles/Box2D-cmake.dir/Box2D/Box2D/Dynamics/Contacts/b2PolygonAndCircleContact.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/Box2D-cmake",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe  @CMakeFiles/Box2D-cmake.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Box2D-cmake.dir\\Box2D\\Box2D\\Dynamics\\Contacts\\b2PolygonContact.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\Box2D-cmake\\Box2D\\Box2D\\Dynamics\\Contacts\\b2PolygonContact.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/Box2D-cmake/Box2D/Box2D/Dynamics/Contacts/b2PolygonContact.cpp",
+  "output": "external/Box2D-cmake/CMakeFiles/Box2D-cmake.dir/Box2D/Box2D/Dynamics/Contacts/b2PolygonContact.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/Box2D-cmake",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe  @CMakeFiles/Box2D-cmake.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Box2D-cmake.dir\\Box2D\\Box2D\\Dynamics\\Joints\\b2DistanceJoint.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\Box2D-cmake\\Box2D\\Box2D\\Dynamics\\Joints\\b2DistanceJoint.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/Box2D-cmake/Box2D/Box2D/Dynamics/Joints/b2DistanceJoint.cpp",
+  "output": "external/Box2D-cmake/CMakeFiles/Box2D-cmake.dir/Box2D/Box2D/Dynamics/Joints/b2DistanceJoint.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/Box2D-cmake",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe  @CMakeFiles/Box2D-cmake.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Box2D-cmake.dir\\Box2D\\Box2D\\Dynamics\\Joints\\b2FrictionJoint.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\Box2D-cmake\\Box2D\\Box2D\\Dynamics\\Joints\\b2FrictionJoint.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/Box2D-cmake/Box2D/Box2D/Dynamics/Joints/b2FrictionJoint.cpp",
+  "output": "external/Box2D-cmake/CMakeFiles/Box2D-cmake.dir/Box2D/Box2D/Dynamics/Joints/b2FrictionJoint.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/Box2D-cmake",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe  @CMakeFiles/Box2D-cmake.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Box2D-cmake.dir\\Box2D\\Box2D\\Dynamics\\Joints\\b2GearJoint.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\Box2D-cmake\\Box2D\\Box2D\\Dynamics\\Joints\\b2GearJoint.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/Box2D-cmake/Box2D/Box2D/Dynamics/Joints/b2GearJoint.cpp",
+  "output": "external/Box2D-cmake/CMakeFiles/Box2D-cmake.dir/Box2D/Box2D/Dynamics/Joints/b2GearJoint.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/Box2D-cmake",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe  @CMakeFiles/Box2D-cmake.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Box2D-cmake.dir\\Box2D\\Box2D\\Dynamics\\Joints\\b2Joint.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\Box2D-cmake\\Box2D\\Box2D\\Dynamics\\Joints\\b2Joint.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/Box2D-cmake/Box2D/Box2D/Dynamics/Joints/b2Joint.cpp",
+  "output": "external/Box2D-cmake/CMakeFiles/Box2D-cmake.dir/Box2D/Box2D/Dynamics/Joints/b2Joint.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/Box2D-cmake",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe  @CMakeFiles/Box2D-cmake.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Box2D-cmake.dir\\Box2D\\Box2D\\Dynamics\\Joints\\b2MotorJoint.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\Box2D-cmake\\Box2D\\Box2D\\Dynamics\\Joints\\b2MotorJoint.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/Box2D-cmake/Box2D/Box2D/Dynamics/Joints/b2MotorJoint.cpp",
+  "output": "external/Box2D-cmake/CMakeFiles/Box2D-cmake.dir/Box2D/Box2D/Dynamics/Joints/b2MotorJoint.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/Box2D-cmake",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe  @CMakeFiles/Box2D-cmake.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Box2D-cmake.dir\\Box2D\\Box2D\\Dynamics\\Joints\\b2MouseJoint.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\Box2D-cmake\\Box2D\\Box2D\\Dynamics\\Joints\\b2MouseJoint.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/Box2D-cmake/Box2D/Box2D/Dynamics/Joints/b2MouseJoint.cpp",
+  "output": "external/Box2D-cmake/CMakeFiles/Box2D-cmake.dir/Box2D/Box2D/Dynamics/Joints/b2MouseJoint.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/Box2D-cmake",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe  @CMakeFiles/Box2D-cmake.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Box2D-cmake.dir\\Box2D\\Box2D\\Dynamics\\Joints\\b2PrismaticJoint.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\Box2D-cmake\\Box2D\\Box2D\\Dynamics\\Joints\\b2PrismaticJoint.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/Box2D-cmake/Box2D/Box2D/Dynamics/Joints/b2PrismaticJoint.cpp",
+  "output": "external/Box2D-cmake/CMakeFiles/Box2D-cmake.dir/Box2D/Box2D/Dynamics/Joints/b2PrismaticJoint.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/Box2D-cmake",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe  @CMakeFiles/Box2D-cmake.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Box2D-cmake.dir\\Box2D\\Box2D\\Dynamics\\Joints\\b2PulleyJoint.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\Box2D-cmake\\Box2D\\Box2D\\Dynamics\\Joints\\b2PulleyJoint.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/Box2D-cmake/Box2D/Box2D/Dynamics/Joints/b2PulleyJoint.cpp",
+  "output": "external/Box2D-cmake/CMakeFiles/Box2D-cmake.dir/Box2D/Box2D/Dynamics/Joints/b2PulleyJoint.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/Box2D-cmake",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe  @CMakeFiles/Box2D-cmake.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Box2D-cmake.dir\\Box2D\\Box2D\\Dynamics\\Joints\\b2RevoluteJoint.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\Box2D-cmake\\Box2D\\Box2D\\Dynamics\\Joints\\b2RevoluteJoint.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/Box2D-cmake/Box2D/Box2D/Dynamics/Joints/b2RevoluteJoint.cpp",
+  "output": "external/Box2D-cmake/CMakeFiles/Box2D-cmake.dir/Box2D/Box2D/Dynamics/Joints/b2RevoluteJoint.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/Box2D-cmake",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe  @CMakeFiles/Box2D-cmake.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Box2D-cmake.dir\\Box2D\\Box2D\\Dynamics\\Joints\\b2RopeJoint.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\Box2D-cmake\\Box2D\\Box2D\\Dynamics\\Joints\\b2RopeJoint.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/Box2D-cmake/Box2D/Box2D/Dynamics/Joints/b2RopeJoint.cpp",
+  "output": "external/Box2D-cmake/CMakeFiles/Box2D-cmake.dir/Box2D/Box2D/Dynamics/Joints/b2RopeJoint.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/Box2D-cmake",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe  @CMakeFiles/Box2D-cmake.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Box2D-cmake.dir\\Box2D\\Box2D\\Dynamics\\Joints\\b2WeldJoint.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\Box2D-cmake\\Box2D\\Box2D\\Dynamics\\Joints\\b2WeldJoint.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/Box2D-cmake/Box2D/Box2D/Dynamics/Joints/b2WeldJoint.cpp",
+  "output": "external/Box2D-cmake/CMakeFiles/Box2D-cmake.dir/Box2D/Box2D/Dynamics/Joints/b2WeldJoint.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/Box2D-cmake",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe  @CMakeFiles/Box2D-cmake.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Box2D-cmake.dir\\Box2D\\Box2D\\Dynamics\\Joints\\b2WheelJoint.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\Box2D-cmake\\Box2D\\Box2D\\Dynamics\\Joints\\b2WheelJoint.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/Box2D-cmake/Box2D/Box2D/Dynamics/Joints/b2WheelJoint.cpp",
+  "output": "external/Box2D-cmake/CMakeFiles/Box2D-cmake.dir/Box2D/Box2D/Dynamics/Joints/b2WheelJoint.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/Box2D-cmake",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe  @CMakeFiles/Box2D-cmake.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Box2D-cmake.dir\\Box2D\\Box2D\\Dynamics\\b2Body.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\Box2D-cmake\\Box2D\\Box2D\\Dynamics\\b2Body.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/Box2D-cmake/Box2D/Box2D/Dynamics/b2Body.cpp",
+  "output": "external/Box2D-cmake/CMakeFiles/Box2D-cmake.dir/Box2D/Box2D/Dynamics/b2Body.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/Box2D-cmake",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe  @CMakeFiles/Box2D-cmake.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Box2D-cmake.dir\\Box2D\\Box2D\\Dynamics\\b2ContactManager.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\Box2D-cmake\\Box2D\\Box2D\\Dynamics\\b2ContactManager.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/Box2D-cmake/Box2D/Box2D/Dynamics/b2ContactManager.cpp",
+  "output": "external/Box2D-cmake/CMakeFiles/Box2D-cmake.dir/Box2D/Box2D/Dynamics/b2ContactManager.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/Box2D-cmake",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe  @CMakeFiles/Box2D-cmake.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Box2D-cmake.dir\\Box2D\\Box2D\\Dynamics\\b2Fixture.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\Box2D-cmake\\Box2D\\Box2D\\Dynamics\\b2Fixture.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/Box2D-cmake/Box2D/Box2D/Dynamics/b2Fixture.cpp",
+  "output": "external/Box2D-cmake/CMakeFiles/Box2D-cmake.dir/Box2D/Box2D/Dynamics/b2Fixture.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/Box2D-cmake",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe  @CMakeFiles/Box2D-cmake.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Box2D-cmake.dir\\Box2D\\Box2D\\Dynamics\\b2Island.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\Box2D-cmake\\Box2D\\Box2D\\Dynamics\\b2Island.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/Box2D-cmake/Box2D/Box2D/Dynamics/b2Island.cpp",
+  "output": "external/Box2D-cmake/CMakeFiles/Box2D-cmake.dir/Box2D/Box2D/Dynamics/b2Island.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/Box2D-cmake",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe  @CMakeFiles/Box2D-cmake.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Box2D-cmake.dir\\Box2D\\Box2D\\Dynamics\\b2World.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\Box2D-cmake\\Box2D\\Box2D\\Dynamics\\b2World.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/Box2D-cmake/Box2D/Box2D/Dynamics/b2World.cpp",
+  "output": "external/Box2D-cmake/CMakeFiles/Box2D-cmake.dir/Box2D/Box2D/Dynamics/b2World.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/Box2D-cmake",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe  @CMakeFiles/Box2D-cmake.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Box2D-cmake.dir\\Box2D\\Box2D\\Dynamics\\b2WorldCallbacks.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\Box2D-cmake\\Box2D\\Box2D\\Dynamics\\b2WorldCallbacks.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/Box2D-cmake/Box2D/Box2D/Dynamics/b2WorldCallbacks.cpp",
+  "output": "external/Box2D-cmake/CMakeFiles/Box2D-cmake.dir/Box2D/Box2D/Dynamics/b2WorldCallbacks.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/Box2D-cmake",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe  @CMakeFiles/Box2D-cmake.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Box2D-cmake.dir\\Box2D\\Box2D\\Rope\\b2Rope.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\Box2D-cmake\\Box2D\\Box2D\\Rope\\b2Rope.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/Box2D-cmake/Box2D/Box2D/Rope/b2Rope.cpp",
+  "output": "external/Box2D-cmake/CMakeFiles/Box2D-cmake.dir/Box2D/Box2D/Rope/b2Rope.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/fmt",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe  @CMakeFiles/fmt.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\fmt.dir\\src\\format.cc.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\fmt\\src\\format.cc",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/fmt/src/format.cc",
+  "output": "external/fmt/CMakeFiles/fmt.dir/src/format.cc.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/fmt",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe  @CMakeFiles/fmt.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\fmt.dir\\src\\os.cc.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\fmt\\src\\os.cc",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/fmt/src/os.cc",
+  "output": "external/fmt/CMakeFiles/fmt.dir/src/os.cc.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/spdlog",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe -DSPDLOG_COMPILED_LIB @CMakeFiles/spdlog.dir/includes_CXX.rsp -g -std=c++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\spdlog.dir\\src\\spdlog.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\spdlog\\src\\spdlog.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/spdlog/src/spdlog.cpp",
+  "output": "external/spdlog/CMakeFiles/spdlog.dir/src/spdlog.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/spdlog",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe -DSPDLOG_COMPILED_LIB @CMakeFiles/spdlog.dir/includes_CXX.rsp -g -std=c++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\spdlog.dir\\src\\stdout_sinks.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\spdlog\\src\\stdout_sinks.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/spdlog/src/stdout_sinks.cpp",
+  "output": "external/spdlog/CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/spdlog",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe -DSPDLOG_COMPILED_LIB @CMakeFiles/spdlog.dir/includes_CXX.rsp -g -std=c++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\spdlog.dir\\src\\color_sinks.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\spdlog\\src\\color_sinks.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/spdlog/src/color_sinks.cpp",
+  "output": "external/spdlog/CMakeFiles/spdlog.dir/src/color_sinks.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/spdlog",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe -DSPDLOG_COMPILED_LIB @CMakeFiles/spdlog.dir/includes_CXX.rsp -g -std=c++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\spdlog.dir\\src\\file_sinks.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\spdlog\\src\\file_sinks.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/spdlog/src/file_sinks.cpp",
+  "output": "external/spdlog/CMakeFiles/spdlog.dir/src/file_sinks.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/spdlog",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe -DSPDLOG_COMPILED_LIB @CMakeFiles/spdlog.dir/includes_CXX.rsp -g -std=c++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\spdlog.dir\\src\\async.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\spdlog\\src\\async.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/spdlog/src/async.cpp",
+  "output": "external/spdlog/CMakeFiles/spdlog.dir/src/async.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/spdlog",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe -DSPDLOG_COMPILED_LIB @CMakeFiles/spdlog.dir/includes_CXX.rsp -g -std=c++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\spdlog.dir\\src\\cfg.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\spdlog\\src\\cfg.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/spdlog/src/cfg.cpp",
+  "output": "external/spdlog/CMakeFiles/spdlog.dir/src/cfg.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/spdlog",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe -DSPDLOG_COMPILED_LIB @CMakeFiles/spdlog.dir/includes_CXX.rsp -g -std=c++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\spdlog.dir\\src\\bundled_fmtlib_format.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\spdlog\\src\\bundled_fmtlib_format.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/spdlog/src/bundled_fmtlib_format.cpp",
+  "output": "external/spdlog/CMakeFiles/spdlog.dir/src/bundled_fmtlib_format.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/imgui/src",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe  @CMakeFiles/imgui.dir/includes_CXX.rsp -g -std=c++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\imgui.dir\\imgui_demo.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\imgui\\src\\imgui_demo.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/imgui/src/imgui_demo.cpp",
+  "output": "external/imgui/src/CMakeFiles/imgui.dir/imgui_demo.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/imgui/src",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe  @CMakeFiles/imgui.dir/includes_CXX.rsp -g -std=c++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\imgui.dir\\imgui_tables.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\imgui\\src\\imgui_tables.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/imgui/src/imgui_tables.cpp",
+  "output": "external/imgui/src/CMakeFiles/imgui.dir/imgui_tables.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/imgui/src",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe  @CMakeFiles/imgui.dir/includes_CXX.rsp -g -std=c++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\imgui.dir\\imgui.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\imgui\\src\\imgui.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/imgui/src/imgui.cpp",
+  "output": "external/imgui/src/CMakeFiles/imgui.dir/imgui.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/imgui/src",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe  @CMakeFiles/imgui.dir/includes_CXX.rsp -g -std=c++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\imgui.dir\\imgui_draw.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\imgui\\src\\imgui_draw.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/imgui/src/imgui_draw.cpp",
+  "output": "external/imgui/src/CMakeFiles/imgui.dir/imgui_draw.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/imgui/src",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe  @CMakeFiles/imgui.dir/includes_CXX.rsp -g -std=c++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\imgui.dir\\imgui_widgets.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\imgui\\src\\imgui_widgets.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/imgui/src/imgui_widgets.cpp",
+  "output": "external/imgui/src/CMakeFiles/imgui.dir/imgui_widgets.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/imgui/src",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe  @CMakeFiles/imgui.dir/includes_CXX.rsp -g -std=c++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\imgui.dir\\backends\\imgui_impl_glfw.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\imgui\\src\\backends\\imgui_impl_glfw.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/imgui/src/backends/imgui_impl_glfw.cpp",
+  "output": "external/imgui/src/CMakeFiles/imgui.dir/backends/imgui_impl_glfw.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/imgui/src",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe  @CMakeFiles/imgui.dir/includes_CXX.rsp -g -std=c++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\imgui.dir\\backends\\imgui_impl_opengl3.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\imgui\\src\\backends\\imgui_impl_opengl3.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/imgui/src/backends/imgui_impl_opengl3.cpp",
+  "output": "external/imgui/src/CMakeFiles/imgui.dir/backends/imgui_impl_opengl3.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/imgui/src",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe  @CMakeFiles/imgui.dir/includes_CXX.rsp -g -std=c++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\imgui.dir\\backends\\imgui_impl_vulkan.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\imgui\\src\\backends\\imgui_impl_vulkan.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/imgui/src/backends/imgui_impl_vulkan.cpp",
+  "output": "external/imgui/src/CMakeFiles/imgui.dir/backends/imgui_impl_vulkan.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/ImGuizmo/src",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe  @CMakeFiles/ImGuizmo.dir/includes_CXX.rsp -g -std=c++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\ImGuizmo.dir\\ImCurveEdit.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\ImGuizmo\\src\\ImCurveEdit.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/ImGuizmo/src/ImCurveEdit.cpp",
+  "output": "external/ImGuizmo/src/CMakeFiles/ImGuizmo.dir/ImCurveEdit.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/ImGuizmo/src",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe  @CMakeFiles/ImGuizmo.dir/includes_CXX.rsp -g -std=c++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\ImGuizmo.dir\\ImGradient.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\ImGuizmo\\src\\ImGradient.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/ImGuizmo/src/ImGradient.cpp",
+  "output": "external/ImGuizmo/src/CMakeFiles/ImGuizmo.dir/ImGradient.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/ImGuizmo/src",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe  @CMakeFiles/ImGuizmo.dir/includes_CXX.rsp -g -std=c++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\ImGuizmo.dir\\ImGuizmo.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\ImGuizmo\\src\\ImGuizmo.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/ImGuizmo/src/ImGuizmo.cpp",
+  "output": "external/ImGuizmo/src/CMakeFiles/ImGuizmo.dir/ImGuizmo.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/ImGuizmo/src",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe  @CMakeFiles/ImGuizmo.dir/includes_CXX.rsp -g -std=c++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\ImGuizmo.dir\\ImSequencer.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\ImGuizmo\\src\\ImSequencer.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/ImGuizmo/src/ImSequencer.cpp",
+  "output": "external/ImGuizmo/src/CMakeFiles/ImGuizmo.dir/ImSequencer.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/glad/src",
+  "command": "C:\\msys64\\mingw64\\bin\\clang.exe  @CMakeFiles/glad.dir/includes_C.rsp -g -o CMakeFiles\\glad.dir\\glad.c.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\glad\\src\\glad.c",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/glad/src/glad.c",
+  "output": "external/glad/src/CMakeFiles/glad.dir/glad.c.obj"
+}
+]
