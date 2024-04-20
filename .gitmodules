@@ -1,0 +1,27 @@
+[submodule "external/Box2D-cmake"]
+	path = external/Box2D-cmake
+	url = https://github.com/tobanteGaming/Box2D-cmake
+[submodule "external/box2d"]
+	path = external/box2d
+	url = https://github.com/erincatto/box2d
+[submodule "external/fmt"]
+	path = external/fmt
+	url = https://github.com/fmtlib/fmt
+[submodule "external/glfw"]
+	path = external/glfw
+	url = https://github.com/glfw/glfw
+[submodule "external/spdlog"]
+	path = external/spdlog
+	url = https://github.com/gabime/spdlog
+[submodule "external/yaml-cpp"]
+	path = external/yaml-cpp
+	url = https://github.com/jbeder/yaml-cpp
+[submodule "external/glm"]
+	path = external/glm
+	url = https://github.com/icaven/glm
+[submodule "external/imgui"]
+	path = external/imgui
+	url = https://github.com/SpinnerX/imgui
+[submodule "external/ImGuizmo"]
+	path = external/ImGuizmo
+	url = https://github.com/SpinnerX/ImGuizmo
