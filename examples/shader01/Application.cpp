@@ -83,7 +83,7 @@ public:
         // Square Color
         glm::vec4 squareColor = {0.2f, 0.3f, 0.8f, 1.0f};
         std::string redShaderSource = "Resources/shaders/basics/Red.glsl";
-        Ref<Shader> shader = Shader::Create(redShaderSource);
+        shader = Shader::Create(redShaderSource);
         shader->Bind();
     }
 

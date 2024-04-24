@@ -49,4 +49,23 @@ namespace Engine3D{
         vertexArr->Bind();
         Renderer::DrawIndexed(vertexArr);
     }
+
+    void Renderer::Submit(Ref<Shader>& shader, Ref<VertexArray>& array){
+        shader->Bind();
+
+
+
+        array->Bind();
+
+        DrawIndexed(array);
+    }
+
+    void Renderer::DrawQuad(Ref<VertexArray>& vertArray, Ref<Shader>& shader, const glm::vec2& pos, const glm::vec2& size, const glm::vec4& color){
+        shader->SetFloat4("u_Color", color);
+        shader->Bind();
+
+        // shader-?
+        vertArray->Bind();
+        DrawIndexed(vertArray);
+    }
 };

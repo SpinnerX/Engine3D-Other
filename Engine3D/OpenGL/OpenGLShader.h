@@ -21,6 +21,7 @@ namespace Engine3D{
         void UploadFloat3(const std::string& name, const glm::vec3& value) override;
         void UploadFloat4(const std::string& name, const glm::vec4& value) override;
 
+        void UploadMat4(const std::string& name, const glm::mat4& transform) override;
     private:
         
         //! @note Reading in our shaders that we input into this shader class

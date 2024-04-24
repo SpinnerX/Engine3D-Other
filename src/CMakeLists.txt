@@ -26,6 +26,7 @@ set(
   ${INCLUDE_DIR}/Graphics/Buffer.cpp
   ${INCLUDE_DIR}/Graphics/VertexArray.cpp
   ${INCLUDE_DIR}/Graphics/Shader.cpp
+  ${INCLUDE_DIR}/Graphics/Texture.cpp
 
   ${INCLUDE_DIR}/Renderer/Renderer.cpp
 
@@ -35,6 +36,7 @@ set(
   ${INCLUDE_DIR}/OpenGL/OpenGLBuffer.cpp
   ${INCLUDE_DIR}/OpenGL/OpenGLVertexArray.cpp
   ${INCLUDE_DIR}/OpenGL/OpenGLShader.cpp
+  ${INCLUDE_DIR}/OpenGL/OpenGLTexture.cpp
   
   # Engine3D/Events/InputPoll.cpp
   # Engine3D/platforms/Windows/InputPoll.cpp
@@ -103,6 +105,7 @@ set(
   ../${INCLUDE_DIR}/Graphics/Buffer.h
   ../${INCLUDE_DIR}/Graphics/VertexArray.h
   ../${INCLUDE_DIR}/Graphics/Shader.h
+  ../${INCLUDE_DIR}/Graphics/Texture.h
 
   ../${INCLUDE_DIR}/Renderer/Renderer.h
   ../${INCLUDE_DIR}/Graphics/RendererCommand.h
@@ -112,6 +115,7 @@ set(
   ../${INCLUDE_DIR}/OpenGL/OpenGLBuffer.h
   ../${INCLUDE_DIR}/OpenGL/OpenGLVertexArray.h
   ../${INCLUDE_DIR}/OpenGL/OpenGLShader.h
+  ../${INCLUDE_DIR}/OpenGL/OpenGLTexture.h
 
   # ../${INCLUDE_DIR}/Core/EngineLogger.h
   # ../${INCLUDE_DIR}/Core/EntryPoint.h

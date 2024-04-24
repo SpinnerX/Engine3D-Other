@@ -200,6 +200,7 @@ namespace Engine3D{
 
 	void OpenGLShader::UploadFloat3(const std::string& name, const glm::vec3& values){
 		GLint location = glGetUniformLocation(id, name.c_str());
+        // glUniform3fv(GetShaderID(), location, glm::value_ptr(values));
         glUniform3f(location, values.x, values.y, values.z);
 	}
 
@@ -207,6 +208,11 @@ namespace Engine3D{
 		GLint location = glGetUniformLocation(id, name.c_str());
         glUniform4f(location, values.x, values.y, values.z, values.w);
 	}
+
+    void OpenGLShader::UploadMat4(const std::string& name, const glm::mat4& matrix){
+        GLint location = glGetUniformLocation(id, name.c_str());
+        glUniformMatrix3fv(location, 1, GL_FALSE, glm::value_ptr(matrix));
+    }
 
 
     /**
@@ -217,41 +223,44 @@ namespace Engine3D{
      * 
     */
 
-//    void ShaderLibrary::Add(const Ref<Shader>& shader){
-//         auto& name = shader->GetName();
-//         if(contains(name)){
-//             coreLogWarn("Shader already exists!");
-//             assert(false);
-//         }
+   Ref<Shader> ShaderLibrary::Load(const std::string& filepath){
+        auto shader = Shader::Create(filepath);
+        Add(shader);
+        return shader;
+   }
 
-//         shaders[name] = shader;
-//    }
+   void ShaderLibrary::Load(const std::string& name, const std::string& path){
+        auto shader = Shader::Create(path);
+        Add(name, shader);
+   }
 
-//    void ShaderLibrary::Add(const std::string& name, const Ref<Shader>& shader){
-//         shaders[name] = shader;
-//    }
+    Ref<Shader> ShaderLibrary::Get(const std::string& name){
+        if(!contains(name)){
+            coreLogWarn("Shader named --- {} was not found in ShaderLibrary", name);
+            assert(false);
+        }
 
-//    Ref<Shader> ShaderLibrary::Get(const std::string& name){
-//         if(!contains(name)){
-//             coreLogWarn("Shader named --- {} was not found in ShaderLibrary", name);
-//             assert(false);
-//         }
+        return shaders[name];
+   }
 
-//         return shaders[name];
-//    }
+   bool ShaderLibrary::contains(const std::string& name){
+        return shaders.contains(name);
+   }
 
-//    Ref<Shader> ShaderLibrary::Load(const std::string& filepath){
-//         auto shader = Shader::Create(filepath);
-//         Add(shader);
-//         return shader;
-//    }
+   void ShaderLibrary::Add(const Ref<Shader>& shader){
+        auto& name = shader->GetShaderName();
+        if(contains(name)){
+            coreLogWarn("Shader already exists!");
+            assert(false);
+        }
 
-//    void ShaderLibrary::Load(const std::string& name, const std::string& path){
-//         auto shader = Shader::Create(path);
-//         Add(name, shader);
-//    }
+        // shader->Bind();
 
-//    bool ShaderLibrary::contains(const std::string& name){
-//         return shaders.contains(name);
-//    }
+        shaders[name] = shader;
+   }
+
+   void ShaderLibrary::Add(const std::string& name, const Ref<Shader>& shader){
+        // shader->Bind();
+        shaders[name] = shader;
+   }
 };

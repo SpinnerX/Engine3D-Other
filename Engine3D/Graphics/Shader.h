@@ -30,6 +30,7 @@ namespace Engine3D{
 
         void SetFloat4(const std::string& name, const glm::vec4& color);
 
+        void SetMat4(const std::string& name, const glm::mat4& matrix);
     private:
         //! @note Using shader program
         virtual void bind() const = 0;
@@ -40,6 +41,8 @@ namespace Engine3D{
         virtual void UploadFloat3(const std::string& name, const glm::vec3& value) = 0;
 
         virtual void UploadFloat4(const std::string& name, const glm::vec4& value) = 0;
+
+        virtual void UploadMat4(const std::string& name, const glm::mat4& transform) = 0;
 
         virtual uint32_t getShaderIDInternal() const = 0;
         virtual const std::string& getShaderNameInternal() const = 0;

@@ -57,6 +57,10 @@ namespace Engine3D{
             Renderer::Clear();
 
             for(Layer* layer : layerStack){
+                layer->OnUpdate();
+            }
+
+            for(Layer* layer : layerStack){
                 layer->OnUIRender();
             }
 

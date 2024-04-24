@@ -37,4 +37,8 @@ namespace Engine3D{
     void Shader::SetFloat4(const std::string& name, const glm::vec4& values){
         UploadFloat4(name, values);
     }
+
+    void Shader::SetMat4(const std::string& name, const glm::mat4& matrix){
+        UploadMat4(name, matrix);
+    }
 };

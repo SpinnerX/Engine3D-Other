@@ -30,6 +30,10 @@ namespace Engine3D{
         
         static void Submit(Ref<VertexArray>& vertexArr);
 
+        static void Submit(Ref<Shader>& shader, Ref<VertexArray>& array);
+
+        static void DrawQuad(Ref<VertexArray>& vertArray, Ref<Shader>& shader, const glm::vec2& pos, const glm::vec2& size, const glm::vec4& color);
+
     private:
         static Renderer* instance;
         Renderer::API api = API::NONE;
