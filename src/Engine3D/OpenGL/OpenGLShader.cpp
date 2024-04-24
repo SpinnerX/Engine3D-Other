@@ -155,7 +155,6 @@ namespace Engine3D{
 
                 coreLogError("Vertex Shader compilation failure! (In Shader.cpp)");
                 coreLogError("{}", infoLog.data());
-                // render_core_assert(false, "Shader compilation error!");
 				// assert(false);
                 break;
             }
@@ -184,9 +183,8 @@ namespace Engine3D{
                 glDeleteShader(shaderID);
             }
 
-            // coreLogError("Fragment Shader link failure!");
+            coreLogError("Shader link failure!");
             coreLogError("{}", infoLog.data());
-            // render_core_assert(false, "Shader link error!");
 			// assert(false);
             return;
 		}
@@ -200,7 +198,6 @@ namespace Engine3D{
 
 	void OpenGLShader::UploadFloat3(const std::string& name, const glm::vec3& values){
 		GLint location = glGetUniformLocation(id, name.c_str());
-        // glUniform3fv(GetShaderID(), location, glm::value_ptr(values));
         glUniform3f(location, values.x, values.y, values.z);
 	}
 
@@ -254,13 +251,10 @@ namespace Engine3D{
             assert(false);
         }
 
-        // shader->Bind();
-
         shaders[name] = shader;
    }
 
    void ShaderLibrary::Add(const std::string& name, const Ref<Shader>& shader){
-        // shader->Bind();
         shaders[name] = shader;
    }
 };

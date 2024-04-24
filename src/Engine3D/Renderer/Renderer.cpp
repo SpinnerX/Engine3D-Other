@@ -31,41 +31,7 @@ namespace Engine3D{
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
     }
 
-    void Renderer::DrawIndexed(Ref<VertexArray>& vertexArray, uint32_t indexCount){
-        // uint32_t count = indexCount ? vertexArray->GetIndexBuffer()->getCount() : indexCount;
-
-        // glDrawElements(GL_TRIANGLES, count, GL_UNSIGNED_INT, nullptr);
-        // glBindTexture(GL_TEXTURE_2D, 0);
-    }
-
     void Renderer::DrawIndexed(Ref<VertexArray>& vertexArray){
-        // uint32_t count = indexCount ? vertexArray->GetIndexBuffer()->getCount() : indexCount;
-
         glDrawElements(GL_TRIANGLES, vertexArray->GetIndexBuffer()->GetCount(), GL_UNSIGNED_INT, nullptr);
-        // glBindTexture(GL_TEXTURE_2D, 0);
-    }
-
-    void Renderer::Submit(Ref<VertexArray>& vertexArr){
-        vertexArr->Bind();
-        Renderer::DrawIndexed(vertexArr);
-    }
-
-    void Renderer::Submit(Ref<Shader>& shader, Ref<VertexArray>& array){
-        shader->Bind();
-
-
-
-        array->Bind();
-
-        DrawIndexed(array);
-    }
-
-    void Renderer::DrawQuad(Ref<VertexArray>& vertArray, Ref<Shader>& shader, const glm::vec2& pos, const glm::vec2& size, const glm::vec4& color){
-        shader->SetFloat4("u_Color", color);
-        shader->Bind();
-
-        // shader-?
-        vertArray->Bind();
-        DrawIndexed(vertArray);
     }
 };
