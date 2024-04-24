@@ -22,13 +22,15 @@ namespace Engine3D{
     public:
         Application();
         
-        template<typename T>
+        // template<typename T>
         void pushLayer(Layer* layer){
+            layer->OnAttach();
             layerStack.pushlayer(layer);
         }
 
-        template<typename T>
+        // template<typename T>
         void pushOverlay(Layer* layer){
+            layer->OnAttach();
             layerStack.pushOverlay(layer);
         }
 

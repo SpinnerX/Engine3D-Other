@@ -1,12 +1,9 @@
 #include <Engine3D/Engine3DPrecompiledHeader.h>
-#include <Engine3D/interfaces/VertexArray.h>
+#include <Engine3D/OpenGL/OpenGLVertexArray.h>
 
 namespace Engine3D{
     static GLenum shaderDatatTypeToOpenGlBaseTypeConversion(ShaderDataType type){
         switch (type){
-            case ShaderDataType::None: 
-                coreLogInfo("Switch Case: None");
-                return 0;
             case ShaderDataType::Float:  return GL_FLOAT;
             case ShaderDataType::Float2: return GL_FLOAT;
             case ShaderDataType::Float3: return GL_FLOAT;
@@ -25,33 +22,36 @@ namespace Engine3D{
         return 0;
     }
 
-    VertexArray::VertexArray(){
+    OpenGLVertexArray::OpenGLVertexArray(){
         glGenVertexArrays(1, &id);
-        glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), nullptr);
+        // glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), nullptr);
     }
 
-    VertexArray::~VertexArray(){
+    OpenGLVertexArray::~OpenGLVertexArray(){
         glDeleteVertexArrays(1, &id);
     }
 
-    void VertexArray::bind() const{
+    void OpenGLVertexArray::bind() const{
         glBindVertexArray(id);
     }
 
-    void VertexArray::unbind() const{
+    void OpenGLVertexArray::unbind() const{
         glBindVertexArray(0);
     }
 
-    void VertexArray::addVertexBuffer(const Ref<VertexBuffer>& buffer){
-        coreLogWarn("Size = {}", buffer->getLayout().getElements().size());
-        assert(buffer->getLayout().getElements().size());
+    const std::vector<Ref<VertexBuffer>> OpenGLVertexArray::getVertexArraysInternal() const{ return vertexes; }
+    const Ref<IndexBuffer> OpenGLVertexArray::getIndexBufferInternal() const{ return indexBuffer; }
 
+    void OpenGLVertexArray::addVertexBuffer(const Ref<VertexBuffer>& buffer){
         glBindVertexArray(id);
 
-        buffer->bind();
+        buffer->Bind();
 
         //! @note We take in our layout and then we set our actual vertex array based on our vertex array layout
-        const auto& layout = buffer->getLayout();
+        index = 0;
+        const auto& layout = buffer->GetLayout();
+        coreLogWarn("Buffer Elements Size = {}", layout.getElements().size());
+        // assert(buffer->GetLayout().getElements().size());
         for(const auto& element : layout){
             switch (element.type){
             case ShaderDataType::Float:
@@ -60,7 +60,7 @@ namespace Engine3D{
 			case ShaderDataType::Float4:
                 {
                     glEnableVertexAttribArray(index);
-                    glVertexAttribPointer(index, element.getComponentCount(), shaderDatatTypeToOpenGlBaseTypeConversion(element.type), element.isNormalized ? GL_TRUE : GL_FALSE, buffer->getLayout().getStride(), (const void*)element.offset);
+                    glVertexAttribPointer(index, element.getComponentCount(), shaderDatatTypeToOpenGlBaseTypeConversion(element.type), element.isNormalized ? GL_TRUE : GL_FALSE, layout.getStride(), (const void*)element.offset);
                     index++;
                 }
                 break;
@@ -80,17 +80,12 @@ namespace Engine3D{
             }
         }
 
-        vertexBuffers.push_back(buffer);
+        vertexes.push_back(buffer);
     }
 
-    void VertexArray::addIndexBuffer(const Ref<IndexBuffer>& buffer){
+    void OpenGLVertexArray::addIndexBuffer(const Ref<IndexBuffer>& buffer){
         glBindVertexArray(id);
-        buffer->bind();
-
+        buffer->Bind();
         indexBuffer = buffer;
-    }
-
-    Ref<VertexArray> VertexArray::Create(){
-        return CreateRef<VertexArray>();
     }
 };

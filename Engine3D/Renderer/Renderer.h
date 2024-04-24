@@ -1,6 +1,6 @@
 #pragma once
 #include <Engine3D/Core/core.h>
-#include <Engine3D/interfaces/VertexArray.h>
+#include <Engine3D/Graphics/VertexArray.h>
 
 namespace Engine3D{
     //! @name Renderer
@@ -26,7 +26,10 @@ namespace Engine3D{
 
     // private:
         static void DrawIndexed(Ref<VertexArray>& vertexArray, uint32_t indexCount);
+        static void DrawIndexed(Ref<VertexArray>& vertexArray);
         
+        static void Submit(Ref<VertexArray>& vertexArr);
+
     private:
         static Renderer* instance;
         Renderer::API api = API::NONE;

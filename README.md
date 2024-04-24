@@ -28,3 +28,10 @@ Particle-System - `https://github.com/SpinnerX/ParticleSystem/`
 * Serializing/Deserializing
 * Saving/Loading UI for serializer/deserializer (UI Editor)
 * Gizmo
+
+
+
+### Examples
+
+* For examples on how to use shaders look in `examples/shaders/` for more details
+* `Resources/shaders/basics/` are shaders that are used for learning how to use the shader library in Engine3D and getting familiar with how building shaders work.

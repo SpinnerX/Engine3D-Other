@@ -42,9 +42,10 @@
 #include <Engine3D/Event/MouseEvent.h>
 #include <Engine3D/Event/ApplicationEvent.h>
 
-#include <Engine3D/interfaces/Buffer.h>
-#include <Engine3D/interfaces/Shader.h>
-#include <Engine3D/interfaces/VertexArray.h>
+#include <Engine3D/Graphics/Buffer.h>
+// #include <Engine3D/Graphics/Shader.h>
+#include <Engine3D/OpenGL/OpenGLShader.h>
+#include <Engine3D/Graphics/VertexArray.h>
 #include <Engine3D/Renderer/Renderer.h>
 
 // #include <glm/glm.hpp>

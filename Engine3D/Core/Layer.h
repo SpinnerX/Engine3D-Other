@@ -23,7 +23,7 @@ namespace Engine3D{
 
         virtual void OnEvent(const Event& event) = 0;
 
-        virtual void onUIRender() = 0;
+        virtual void OnUIRender() = 0;
 
         inline const std::string& getName() const { return layerName; }
 

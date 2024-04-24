@@ -16,6 +16,7 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON CACHE INTERNAL "") # works (in creating the
 option(ENGINE_VSCODE_BUILD "Generating compile_commands.json for vscode" ON)
 option(ENGINE_BUILD_UNIT_TESTS "Build the Engine3D unit tests" ON)
 option(ENGINE_BUILD_SANDBOX "Build the Engine3D Sandbox" ON)
+option(ENGINE_EXAMPLES_BUILD "Building Engine3D's Examples" ON)
 option(ENGINE_BUILD_DOCS "Build the Engine3D documentation" OFF)
 option(ENGINE_USER_SETTINGS "Override Engine3D settings with GameEngineUserSettings.h" OFF)
 option(BUILD_SHARED_LIBS "Build Box2D as a shared library" OFF)
@@ -32,6 +33,10 @@ set_property(GLOBAL PROPERTY USE_FOLDERS ON)
 # add_subdirectory(Sandbox)
 add_subdirectory(src)
 
+if(ENGINE_EXAMPLES_BUILD)
+    add_subdirectory(examples)
+endif()
+
 if (ENGINE_BUILD_SANDBOX)
     add_subdirectory(Sandbox-Internal)
 
@@ -44,6 +49,7 @@ endif()
 
 # Copying our resources directory into our build directory
 file(COPY Resources DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
+file(COPY Resources DESTINATION "${CMAKE_CURRENT_BINARY_DIR}/Sandbox-Internal")
 
 if(WIN32)
 include(cmake/win32.cmake)

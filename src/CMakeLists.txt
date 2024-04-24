@@ -23,13 +23,19 @@ set(
   ${INCLUDE_DIR}/Core/Layer.cpp
   ${INCLUDE_DIR}/Core/LayerStack.cpp
 
-  ${INCLUDE_DIR}/OpenGL/OpenGLBuffer.cpp
-  ${INCLUDE_DIR}/OpenGL/OpenGLShader.cpp
-  ${INCLUDE_DIR}/OpenGL/OpenGLVertexArray.cpp
-  
+  ${INCLUDE_DIR}/Graphics/Buffer.cpp
+  ${INCLUDE_DIR}/Graphics/VertexArray.cpp
+  ${INCLUDE_DIR}/Graphics/Shader.cpp
+
   ${INCLUDE_DIR}/Renderer/Renderer.cpp
 
   ${INCLUDE_DIR}/Image/stb_image.cpp
+
+  # OpenGL
+  ${INCLUDE_DIR}/OpenGL/OpenGLBuffer.cpp
+  ${INCLUDE_DIR}/OpenGL/OpenGLVertexArray.cpp
+  ${INCLUDE_DIR}/OpenGL/OpenGLShader.cpp
+  
   # Engine3D/Events/InputPoll.cpp
   # Engine3D/platforms/Windows/InputPoll.cpp
   # Engine3D/Core/Layer.cpp
@@ -94,12 +100,18 @@ set(
   ../${INCLUDE_DIR}/Core/Layer.h
   ../${INCLUDE_DIR}/Core/LayerStack.h
 
-  ../${INCLUDE_DIR}/interfaces/Buffer.h
-  ../${INCLUDE_DIR}/interfaces/Shader.h
+  ../${INCLUDE_DIR}/Graphics/Buffer.h
+  ../${INCLUDE_DIR}/Graphics/VertexArray.h
+  ../${INCLUDE_DIR}/Graphics/Shader.h
+
   ../${INCLUDE_DIR}/Renderer/Renderer.h
-  ../${INCLUDE_DIR}/interfaces/RendererCommand.h
+  ../${INCLUDE_DIR}/Graphics/RendererCommand.h
 
   ../${INCLUDE_DIR}/Image/stb_image.h
+
+  ../${INCLUDE_DIR}/OpenGL/OpenGLBuffer.h
+  ../${INCLUDE_DIR}/OpenGL/OpenGLVertexArray.h
+  ../${INCLUDE_DIR}/OpenGL/OpenGLShader.h
 
   # ../${INCLUDE_DIR}/Core/EngineLogger.h
   # ../${INCLUDE_DIR}/Core/EntryPoint.h

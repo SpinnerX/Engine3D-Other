@@ -25,13 +25,28 @@ namespace Engine3D{
     }
 
     void Renderer::Clear(){
+        //! @note GL_COLOR_BUFFER_BIT - indicates to OpenGL to currently enable writing mode to writing colors
+        //! @note GL_DEPTH_BUFFER_BIT - indicates the depth buffer
+        //! @note Depth buffer (known as Z buffer) - representing depth information of objects in 3D Space.
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
     }
 
     void Renderer::DrawIndexed(Ref<VertexArray>& vertexArray, uint32_t indexCount){
-        uint32_t count = indexCount ? vertexArray->GetIndexBuffer()->getCount() : indexCount;
+        // uint32_t count = indexCount ? vertexArray->GetIndexBuffer()->getCount() : indexCount;
 
-        glDrawElements(GL_TRIANGLES, count, GL_UNSIGNED_INT, nullptr);
-        glBindTexture(GL_TEXTURE_2D, 0);
+        // glDrawElements(GL_TRIANGLES, count, GL_UNSIGNED_INT, nullptr);
+        // glBindTexture(GL_TEXTURE_2D, 0);
+    }
+
+    void Renderer::DrawIndexed(Ref<VertexArray>& vertexArray){
+        // uint32_t count = indexCount ? vertexArray->GetIndexBuffer()->getCount() : indexCount;
+
+        glDrawElements(GL_TRIANGLES, vertexArray->GetIndexBuffer()->GetCount(), GL_UNSIGNED_INT, nullptr);
+        // glBindTexture(GL_TEXTURE_2D, 0);
+    }
+
+    void Renderer::Submit(Ref<VertexArray>& vertexArr){
+        vertexArr->Bind();
+        Renderer::DrawIndexed(vertexArr);
     }
 };

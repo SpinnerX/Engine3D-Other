@@ -189,43 +189,95 @@ namespace Engine3D{
         uint32_t stride = 0;
     };
     
+    /**
+        @name Buffer.h
+        @note Represents our objects such as VertexBuffer/IndexBuffer.
+        @note Binding and UnBind() applied to IndexBuffer as well VertexBuffer.
+        @note Buffer objects represent how memory's allocated to GPU. Other words available to the GPU.
+        @note One thing about OpenGL is if you use glGen* then your only creating the buffer and not bounding it
+        @note Hence, that is what glCreate* functions will do for you automatically.
+
+        @note Vertex Buffer stores vertices, used by the vertex shader.
+        @note Each instance of a vertex shader loads our vertex buffer you create using this VertexBuffer.
+        @note This is how you get the output of a transformed vertex.
+
+        @param Bind()
+        @note Keep in mind that in OpenGL there are a few uses of bind functions, though will only mention about Buffer's use of bind.
+        @note When you call bind this is basically is how you prepare the object for use.
+        @note Linking that object somewhere specifically in memory called the "Binding Point".
+        @note Similarily it is like setting a global variable to like "GL_ARRAY_BUFFER" or "GL_ELEMENT_BUFFER".
+        @note Where once you've set that variable functions will act on it.
+
+        @param Unbind()
+        @note When calling this function you are telling OpenGL to no longer bound this buffer to somewhere in memory.
+        @note Meaning if you have this referenced to somewhere like your "VertexArray", you'll get weird results.
+
+        @param SetLayout()
+        @note Sets the layout of how we want our buffer data to be handled to the Vertex Shader.
+        @note BufferLayout uses BufferElement to store our data when called in the VertexArray.
+        @note Check OpenGLVertexArray for more internal details.
+    */
     class VertexBuffer{
     public:
-        VertexBuffer(float* vertices, uint32_t size);
-        VertexBuffer(uint32_t size);
-        ~VertexBuffer();
-
-        void setLayout(const BufferLayout& layout);
-
-        BufferLayout getLayout() const { return layout; }
-
-        void bind() const;
-        void unbind() const;
+        //! @note if the default destructor is not called
+        //! @note Then the overloaded destructor from OpenGLVertexBuffer would be called
+        virtual ~VertexBuffer(){}
 
         static Ref<VertexBuffer> Create(float* vertices, uint32_t size);
 
         static Ref<VertexBuffer> Create(uint32_t size);
 
+        /**
+            @name Bind()
+            @note Binds our vertex buffer somewhere specifically in memory
+            @note Used for preparing our vertices for use by our vertex shader
+        */
+        void Bind() const;
+
+        /**
+            @name Unbind()
+            @note Unbinds our vertex meaning our buffer is no longer bounded in memory
+            @note Which is similarily like deleting the referenced to our vertex buffer object
+            @note So, if you had a vertex array using a vertex buffer unbinded will lead to weird results.
+        */
+        void Unbind() const;
+
+        //! @note Allows setting the buffer layout
+        void SetLayout(const BufferLayout& layout);
+
+        //! @note Returns our current buffer layout
+        BufferLayout GetLayout() const;
+
     private:
-        uint32_t id;
-        BufferLayout layout;
+
+        //! @note Internal functions to handle API-agnostic operations
+        virtual void bind() const = 0;
+        virtual void unbind() const = 0;
+
+        virtual void setLayout(const BufferLayout& layout) = 0;
+
+        virtual BufferLayout getLayout() const = 0;
     };
 
     class IndexBuffer{
     public:
-        IndexBuffer(uint32_t* indices, uint32_t size);
+        //! @note User API Calls.
+        void Bind() const;
+        void Unbind() const;
 
-        ~IndexBuffer();
+        uint32_t GetCount() const;
 
-        void bind() const;
-        void unbind() const;
-
-        uint32_t getCount() const { return count; }
-
+        /**
+         * @name Create(indices, size)
+         * @note API-agnostic create function
+         * @note Determine what API we will be using.
+        */
         static Ref<IndexBuffer> Create(uint32_t* indices, uint32_t size);
 
     private:
-        uint32_t id;
-        uint32_t count;
+        virtual void bind() const = 0;
+        virtual void unbind() const = 0;
+
+        virtual uint32_t getCount() const = 0;
     };
 };
