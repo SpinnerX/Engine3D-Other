@@ -94,7 +94,9 @@
         "thread": "cpp",
         "typeindex": "cpp",
         "valarray": "cpp",
-        "variant": "cpp"
+        "variant": "cpp",
+        "*.inc": "cpp",
+        "*.def": "cpp"
     },
     "C_Cpp.default.compilerPath": "C:\\msys64\\mingw64\\bin\\g++.exe"
 }
