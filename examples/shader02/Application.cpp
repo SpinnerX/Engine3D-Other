@@ -31,8 +31,11 @@ public:
 
         // std::string redShaderSourceVert = "Resources/shaders/foo/Red0.vert";
         // std::string redShaderFrag = "Resources/shaders/foo/Red1.frag";
-        std::string redShaderSource = "Resources/shaders/Basics/Red.glsl";
-        Ref<Shader> shader = Shader::Create(redShaderSource);
+        std::string colorShaderSource = "Resources/shaders/Basics/Color.glsl";
+        // shader = Shader::Create(redShaderSourceVert);
+        shader = Shader::Create(colorShaderSource);
+        // shader2 = Shader::Create(redShaderFrag);
+        // Ref<Shader> shader = Shader::Create(redShaderSource);
         library.Add(shader);
     }
 
@@ -41,8 +44,9 @@ public:
 
     //! @note Handling all of our updated events
     void OnUpdate() override{
-        auto shader = library.Get("Red");
+        auto shader = library.Get("Color");
         shader->Bind();
+        // shader2->Bind();
         glm::vec4 squareColor = {0.2f, 0.3f, 0.8f, 1.0f};
         shader->SetFloat4("u_Color", squareColor); // Setting our u_Color in glsl
         
@@ -62,6 +66,8 @@ private:
     Ref<IndexBuffer> ibo;
     Ref<VertexArray> vao;
     ShaderLibrary library;
+    Ref<Shader> shader;
+    Ref<Shader> shader2;
 };
 };
 
