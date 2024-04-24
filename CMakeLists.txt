@@ -34,7 +34,8 @@ set_property(GLOBAL PROPERTY USE_FOLDERS ON)
 add_subdirectory(src)
 
 if(ENGINE_EXAMPLES_BUILD)
-    add_subdirectory(examples)
+    add_subdirectory(examples/shader01)
+    add_subdirectory(examples/shader02)
 endif()
 
 if (ENGINE_BUILD_SANDBOX)
