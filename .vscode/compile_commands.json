@@ -61,6 +61,12 @@
 },
 {
   "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/src",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/Engine3D.dir/includes_CXX.rsp -g -std=c++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Engine3D.dir\\Engine3D\\Graphics\\Texture.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\src\\Engine3D\\Graphics\\Texture.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/src/Engine3D/Graphics/Texture.cpp",
+  "output": "src/CMakeFiles/Engine3D.dir/Engine3D/Graphics/Texture.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/src",
   "command": "C:\\msys64\\mingw64\\bin\\clang++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/Engine3D.dir/includes_CXX.rsp -g -std=c++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Engine3D.dir\\Engine3D\\Renderer\\Renderer.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\src\\Engine3D\\Renderer\\Renderer.cpp",
   "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/src/Engine3D/Renderer/Renderer.cpp",
   "output": "src/CMakeFiles/Engine3D.dir/Engine3D/Renderer/Renderer.cpp.obj"
@@ -90,10 +96,22 @@
   "output": "src/CMakeFiles/Engine3D.dir/Engine3D/OpenGL/OpenGLShader.cpp.obj"
 },
 {
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/src",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/Engine3D.dir/includes_CXX.rsp -g -std=c++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Engine3D.dir\\Engine3D\\OpenGL\\OpenGLTexture.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\src\\Engine3D\\OpenGL\\OpenGLTexture.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/src/Engine3D/OpenGL/OpenGLTexture.cpp",
+  "output": "src/CMakeFiles/Engine3D.dir/Engine3D/OpenGL/OpenGLTexture.cpp.obj"
+},
+{
   "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/examples/shader01",
-  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/examples.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\examples.dir\\Application.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\examples\\shader01\\Application.cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/Shader01.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Shader01.dir\\Application.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\examples\\shader01\\Application.cpp",
   "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/examples/shader01/Application.cpp",
-  "output": "examples/shader01/CMakeFiles/examples.dir/Application.cpp.obj"
+  "output": "examples/shader01/CMakeFiles/Shader01.dir/Application.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/examples/shader02",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/Shader02.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Shader02.dir\\Application.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\examples\\shader02\\Application.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/examples/shader02/Application.cpp",
+  "output": "examples/shader02/CMakeFiles/Shader02.dir/Application.cpp.obj"
 },
 {
   "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/Sandbox-Internal",
