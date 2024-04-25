@@ -48,7 +48,7 @@ public:
         shader->Bind();
         // shader2->Bind();
         glm::vec4 squareColor = {0.2f, 0.3f, 0.8f, 1.0f};
-        shader->SetFloat4("u_Color", squareColor); // Setting our u_Color in glsl
+        shader->Set("u_Color", squareColor); // Setting our u_Color in glsl
         
         Renderer::DrawIndexed(vao);
     }
