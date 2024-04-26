@@ -35,6 +35,10 @@ namespace Engine3D{
     public:
         MouseScrolledEvent(float x, float y) : xOffset(x), yOffset(y) {}
 
+        inline float GetXOffset() const { return xOffset; }
+
+        inline float GetYOffset() const { return yOffset; }
+
         static EventType GetStaticType() { return EventType::MouseScrolled; }
 
     private:

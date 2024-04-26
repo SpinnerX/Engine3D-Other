@@ -91,17 +91,17 @@ public:
     void OnDettach() override {}
 
     //! @note Handling all of our updated events
-    void OnUpdate() override{
+    void OnUpdate(float ts) override{
     }
 
     //! @note Handling all of our events
-    void OnEvent(const Engine3D::Event& event) override {
+    void OnEvent(Engine3D::Event& event) {
     }
 
     //! @note This is used for any of the UI Rendering that will happening
     void OnUIRender() override{
 
-        Renderer::DrawIndexed(vao);
+        Pipeline::DrawCommand(vao);
     }
 
 private:

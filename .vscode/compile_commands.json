@@ -67,6 +67,18 @@
 },
 {
   "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/src",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/Engine3D.dir/includes_CXX.rsp -g -std=c++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Engine3D.dir\\Engine3D\\ImGui\\ImGuiLayer.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\src\\Engine3D\\ImGui\\ImGuiLayer.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/src/Engine3D/ImGui/ImGuiLayer.cpp",
+  "output": "src/CMakeFiles/Engine3D.dir/Engine3D/ImGui/ImGuiLayer.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/src",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/Engine3D.dir/includes_CXX.rsp -g -std=c++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Engine3D.dir\\Engine3D\\Graphics\\Pipeline.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\src\\Engine3D\\Graphics\\Pipeline.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/src/Engine3D/Graphics/Pipeline.cpp",
+  "output": "src/CMakeFiles/Engine3D.dir/Engine3D/Graphics/Pipeline.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/src",
   "command": "C:\\msys64\\mingw64\\bin\\clang++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/Engine3D.dir/includes_CXX.rsp -g -std=c++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Engine3D.dir\\Engine3D\\Renderer\\Renderer.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\src\\Engine3D\\Renderer\\Renderer.cpp",
   "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/src/Engine3D/Renderer/Renderer.cpp",
   "output": "src/CMakeFiles/Engine3D.dir/Engine3D/Renderer/Renderer.cpp.obj"
@@ -102,6 +114,36 @@
   "output": "src/CMakeFiles/Engine3D.dir/Engine3D/OpenGL/OpenGLTexture.cpp.obj"
 },
 {
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/src",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/Engine3D.dir/includes_CXX.rsp -g -std=c++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Engine3D.dir\\Engine3D\\ImGuizmo\\ImCurveEdit.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\src\\Engine3D\\ImGuizmo\\ImCurveEdit.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/src/Engine3D/ImGuizmo/ImCurveEdit.cpp",
+  "output": "src/CMakeFiles/Engine3D.dir/Engine3D/ImGuizmo/ImCurveEdit.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/src",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/Engine3D.dir/includes_CXX.rsp -g -std=c++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Engine3D.dir\\Engine3D\\ImGuizmo\\ImGradient.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\src\\Engine3D\\ImGuizmo\\ImGradient.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/src/Engine3D/ImGuizmo/ImGradient.cpp",
+  "output": "src/CMakeFiles/Engine3D.dir/Engine3D/ImGuizmo/ImGradient.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/src",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/Engine3D.dir/includes_CXX.rsp -g -std=c++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Engine3D.dir\\Engine3D\\ImGuizmo\\ImGuizmo.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\src\\Engine3D\\ImGuizmo\\ImGuizmo.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/src/Engine3D/ImGuizmo/ImGuizmo.cpp",
+  "output": "src/CMakeFiles/Engine3D.dir/Engine3D/ImGuizmo/ImGuizmo.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/src",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/Engine3D.dir/includes_CXX.rsp -g -std=c++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Engine3D.dir\\Engine3D\\ImGuizmo\\ImSequencer.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\src\\Engine3D\\ImGuizmo\\ImSequencer.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/src/Engine3D/ImGuizmo/ImSequencer.cpp",
+  "output": "src/CMakeFiles/Engine3D.dir/Engine3D/ImGuizmo/ImSequencer.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/src",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/Engine3D.dir/includes_CXX.rsp -g -std=c++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Engine3D.dir\\Engine3D\\Scene\\Camera.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\src\\Engine3D\\Scene\\Camera.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/src/Engine3D/Scene/Camera.cpp",
+  "output": "src/CMakeFiles/Engine3D.dir/Engine3D/Scene/Camera.cpp.obj"
+},
+{
   "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/examples/shader01",
   "command": "C:\\msys64\\mingw64\\bin\\clang++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/Shader01.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Shader01.dir\\Application.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\examples\\shader01\\Application.cpp",
   "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/examples/shader01/Application.cpp",
@@ -112,6 +154,24 @@
   "command": "C:\\msys64\\mingw64\\bin\\clang++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/Shader02.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Shader02.dir\\Application.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\examples\\shader02\\Application.cpp",
   "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/examples/shader02/Application.cpp",
   "output": "examples/shader02/CMakeFiles/Shader02.dir/Application.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/examples/shader03",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/Shader03.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Shader03.dir\\Application.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\examples\\shader03\\Application.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/examples/shader03/Application.cpp",
+  "output": "examples/shader03/CMakeFiles/Shader03.dir/Application.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/examples/texture01",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/Texture01.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Texture01.dir\\Application.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\examples\\texture01\\Application.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/examples/texture01/Application.cpp",
+  "output": "examples/texture01/CMakeFiles/Texture01.dir/Application.cpp.obj"
+},
+{
+  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/examples/texture02",
+  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/Texture02.dir/includes_CXX.rsp -g -std=gnu++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\Texture02.dir\\Application.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\examples\\texture02\\Application.cpp",
+  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/examples/texture02/Application.cpp",
+  "output": "examples/texture02/CMakeFiles/Texture02.dir/Application.cpp.obj"
 },
 {
   "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/Sandbox-Internal",
@@ -832,30 +892,6 @@
   "command": "C:\\msys64\\mingw64\\bin\\clang++.exe  @CMakeFiles/imgui.dir/includes_CXX.rsp -g -std=c++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\imgui.dir\\backends\\imgui_impl_vulkan.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\imgui\\src\\backends\\imgui_impl_vulkan.cpp",
   "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/imgui/src/backends/imgui_impl_vulkan.cpp",
   "output": "external/imgui/src/CMakeFiles/imgui.dir/backends/imgui_impl_vulkan.cpp.obj"
-},
-{
-  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/ImGuizmo/src",
-  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe  @CMakeFiles/ImGuizmo.dir/includes_CXX.rsp -g -std=c++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\ImGuizmo.dir\\ImCurveEdit.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\ImGuizmo\\src\\ImCurveEdit.cpp",
-  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/ImGuizmo/src/ImCurveEdit.cpp",
-  "output": "external/ImGuizmo/src/CMakeFiles/ImGuizmo.dir/ImCurveEdit.cpp.obj"
-},
-{
-  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/ImGuizmo/src",
-  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe  @CMakeFiles/ImGuizmo.dir/includes_CXX.rsp -g -std=c++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\ImGuizmo.dir\\ImGradient.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\ImGuizmo\\src\\ImGradient.cpp",
-  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/ImGuizmo/src/ImGradient.cpp",
-  "output": "external/ImGuizmo/src/CMakeFiles/ImGuizmo.dir/ImGradient.cpp.obj"
-},
-{
-  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/ImGuizmo/src",
-  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe  @CMakeFiles/ImGuizmo.dir/includes_CXX.rsp -g -std=c++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\ImGuizmo.dir\\ImGuizmo.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\ImGuizmo\\src\\ImGuizmo.cpp",
-  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/ImGuizmo/src/ImGuizmo.cpp",
-  "output": "external/ImGuizmo/src/CMakeFiles/ImGuizmo.dir/ImGuizmo.cpp.obj"
-},
-{
-  "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/ImGuizmo/src",
-  "command": "C:\\msys64\\mingw64\\bin\\clang++.exe  @CMakeFiles/ImGuizmo.dir/includes_CXX.rsp -g -std=c++20 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles\\ImGuizmo.dir\\ImSequencer.cpp.obj -c C:\\Users\\heraa\\OneDrive\\Desktop\\Engine3D\\external\\ImGuizmo\\src\\ImSequencer.cpp",
-  "file": "C:/Users/heraa/OneDrive/Desktop/Engine3D/external/ImGuizmo/src/ImSequencer.cpp",
-  "output": "external/ImGuizmo/src/CMakeFiles/ImGuizmo.dir/ImSequencer.cpp.obj"
 },
 {
   "directory": "C:/Users/heraa/OneDrive/Desktop/Engine3D/build/external/glad/src",

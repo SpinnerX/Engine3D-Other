@@ -24,13 +24,31 @@ namespace Engine3D{
         void Unbind() const;
 
         uint32_t GetShaderID() const;
+
         const std::string& GetShaderName() const;
+
+        // Float1
+        void Set(const std::string& name, const float& value);
+
+        // Float2
+        void Set(const std::string& name, const glm::vec2& value);
         
-        void SetFloat3(const std::string& name, const glm::vec3& value);
+        // Float3
+        void Set(const std::string& name, const glm::vec3& value);
 
-        void SetFloat4(const std::string& name, const glm::vec4& color);
+        // Float4
+        void Set(const std::string& name, const glm::vec4& color);
 
-        void SetMat4(const std::string& name, const glm::mat4& matrix);
+        // Int
+        void Set(const std::string& name, const int value);
+
+        // Int Array
+        void Set(const std::string& name, int* array, uint32_t textureSlotCount);
+
+        void Set(const std::string& name, const glm::mat3& matrix);
+
+        void Set(const std::string& name, const glm::mat4& matrix);
+
     private:
         //! @note Using shader program
         virtual void bind() const = 0;
@@ -38,13 +56,24 @@ namespace Engine3D{
         //! @note Deleting shader program
         virtual void unbind() const = 0;
 
+        virtual void UploadFloat1(const std::string& name, const float& value) = 0;
+
+        virtual void UploadFloat2(const std::string& name, const glm::vec2& value) = 0;
+
         virtual void UploadFloat3(const std::string& name, const glm::vec3& value) = 0;
 
         virtual void UploadFloat4(const std::string& name, const glm::vec4& value) = 0;
 
+        virtual void UploadInt(const std::string& name, const int value) = 0;
+        
+        virtual void UploadIntArray(const std::string& name, int* array, uint32_t count) = 0;
+
+        virtual void UploadMat3(const std::string& name, const glm::mat3& transform) = 0;
+
         virtual void UploadMat4(const std::string& name, const glm::mat4& transform) = 0;
 
         virtual uint32_t getShaderIDInternal() const = 0;
+        
         virtual const std::string& getShaderNameInternal() const = 0;
 
     private:

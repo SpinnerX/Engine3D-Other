@@ -3,8 +3,8 @@
 #include <Engine3D/Core/Window.h>
 #include <Engine3D/Core/LayerStack.h>
 #include <cassert>
-
 #include <Engine3D/Event/MouseEvent.h>
+#include <ImGui/ImGuiLayer.h>
 
 namespace Engine3D{
 
@@ -54,6 +54,7 @@ namespace Engine3D{
     private:
         static Application* instance;
         LayerStack layerStack;
+        ImGuiLayer* imguiLayer;
     };
 
     Application* CreateApplication(ApplicationCommandLineArgs commandLineArgs);

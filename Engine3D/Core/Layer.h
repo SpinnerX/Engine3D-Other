@@ -19,9 +19,9 @@ namespace Engine3D{
         virtual void OnAttach() = 0;
         virtual void OnDettach() = 0;
 
-        virtual void OnUpdate() = 0;
+        virtual void OnUpdate(float ts) = 0;
 
-        virtual void OnEvent(const Event& event) = 0;
+        virtual void OnEvent(Event& event) = 0;
 
         virtual void OnUIRender() = 0;
 

@@ -18,6 +18,8 @@ namespace Engine3D{
 
         BufferLayout getLayout() const override;
 
+        void SetDataInternal(void* data, uint32_t size) override;
+
     private:
         uint32_t id; //! @note Vertex Buffer ID
         BufferLayout layout; // Layout of our buffered data.

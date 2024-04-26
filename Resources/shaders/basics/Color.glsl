@@ -31,7 +31,7 @@ void main(){
 
 out vec4 a_Color;
 
-// we set this u_Color variable in the OpenGL code
+// NOTE -- we set this u_Color variable in the OpenGL code
 uniform vec4 u_Color;
 
 void main(){

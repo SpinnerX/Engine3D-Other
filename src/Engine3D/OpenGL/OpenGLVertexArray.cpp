@@ -24,7 +24,6 @@ namespace Engine3D{
 
     OpenGLVertexArray::OpenGLVertexArray(){
         glGenVertexArrays(1, &id);
-        // glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), nullptr);
     }
 
     OpenGLVertexArray::~OpenGLVertexArray(){

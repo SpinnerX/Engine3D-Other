@@ -13,8 +13,9 @@ namespace Engine3D{
 
         //! @note Initializing our renderer with a specified Rendering API
         //! @note Foreshadowing utilizing multiple Graphics API support
-        Renderer::Initialize(Engine3D::Renderer::API::OPENGL);
-        Renderer::SetViewport(0, 0, window->GetWidth(), window->GetHeight());
+        Renderer::Initialize(Engine3D::API::OPENGL);
+        imguiLayer = new ImGuiLayer();
+        pushLayer(imguiLayer);
     }
 
     Window& Application::Get(){
@@ -53,11 +54,10 @@ namespace Engine3D{
         
         while(isRunning){
             float time = (float)glfwGetTime();
-            Renderer::SetClearColor(0.1f, 0.1f, 0.1f, 1);
-            Renderer::Clear();
+            Renderer::Clear(0.1f, 0.1f, 0.1f, 1);
 
             for(Layer* layer : layerStack){
-                layer->OnUpdate();
+                layer->OnUpdate(time);
             }
 
             for(Layer* layer : layerStack){

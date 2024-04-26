@@ -16,7 +16,8 @@ find_package(Vulkan REQUIRED)
 
 find_dependency(OpenGL REQUIRED )
 
-include_directories( ${OPENGL_INCLUDE_DIRS} external/ImGuizmo/include external/box2d/include)
+# include_directories( ${OPENGL_INCLUDE_DIRS} external/ImGuizmo/include external/box2d/include
+include_directories( ${OPENGL_INCLUDE_DIRS} external/box2d/include)
 
 set( GLFW_BUILD_DOCS OFF CACHE BOOL  "GLFW lib only" )
 set( GLFW_INSTALL OFF CACHE BOOL  "GLFW lib only" )
@@ -55,8 +56,6 @@ add_subdirectory(external/spdlog)
 
 add_subdirectory(external/imgui)
 
-add_subdirectory(external/ImGuizmo)
-
 add_subdirectory(external/glad)
 
 # endif(WIN32)
@@ -70,7 +69,5 @@ target_link_libraries(${PROJECT_NAME}
     tobanteGaming::Box2D
     yaml-cpp::yaml-cpp
     imgui
-    ImGuizmo
 	glad
-	# box2d
 )

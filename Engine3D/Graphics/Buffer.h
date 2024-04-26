@@ -245,6 +245,8 @@ namespace Engine3D{
         //! @note Allows setting the buffer layout
         void SetLayout(const BufferLayout& layout);
 
+        void SetData(void* data, uint32_t size);
+
         //! @note Returns our current buffer layout
         BufferLayout GetLayout() const;
 
@@ -256,6 +258,8 @@ namespace Engine3D{
 
         virtual void setLayout(const BufferLayout& layout) = 0;
 
+        virtual void SetDataInternal(void* data, uint32_t size) = 0;
+
         virtual BufferLayout getLayout() const = 0;
     };
 
@@ -264,7 +268,14 @@ namespace Engine3D{
         //! @note User API Calls.
         void Bind() const;
         void Unbind() const;
-
+        
+        /**
+         * @param getCount
+         * @note count is the representation of how many types are being sent to the shaders
+         * @note Meaning "uniform vec4 position" would result in count 1
+         * @note Whereas "uniform vec4 a_Positions[4]" should result in count 4.
+         * @note Hence count is how many types will be sent to shaders.
+        */
         uint32_t GetCount() const;
 
         /**

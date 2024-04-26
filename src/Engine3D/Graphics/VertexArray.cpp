@@ -4,7 +4,7 @@
 namespace Engine3D{
     Ref<VertexArray> VertexArray::Create(){
         switch (Renderer::CurrentAPI()){
-        case Renderer::API::OPENGL:
+        case API::OPENGL:
             return CreateRef<OpenGLVertexArray>();
         }
 

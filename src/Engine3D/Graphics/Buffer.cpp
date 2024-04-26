@@ -2,11 +2,10 @@
 #include <Engine3D/Graphics/Buffer.h>
 #include <Engine3D/OpenGL/OpenGLBuffer.h>
 
-
 namespace Engine3D{
     Ref<VertexBuffer> VertexBuffer::Create(float* vertices, uint32_t size){
         switch (Renderer::CurrentAPI()){
-        case Renderer::API::OPENGL:
+        case API::OPENGL:
             return CreateRef<OpenGLVertexBuffer>(vertices, size);
         }
         coreLogFatal("Unsupported API was detected in VertexBuffer::Create(vertices, size)");
@@ -16,7 +15,7 @@ namespace Engine3D{
 
     Ref<VertexBuffer> VertexBuffer::Create(uint32_t size){
         switch (Renderer::CurrentAPI()){
-        case Renderer::API::OPENGL:
+        case API::OPENGL:
             return CreateRef<OpenGLVertexBuffer>(size);
         }
         coreLogFatal("Unsupported API was detected in VertexBuffer::Create(size)");
@@ -28,14 +27,14 @@ namespace Engine3D{
     void VertexBuffer::Unbind() const { unbind(); }
 
     void VertexBuffer::SetLayout(const BufferLayout& layout) { setLayout(layout); }
-
+    void VertexBuffer::SetData(void* data, uint32_t size) { SetDataInternal(data, size); }
     BufferLayout VertexBuffer::GetLayout() const { return getLayout(); }
 
 
 
     Ref<IndexBuffer> IndexBuffer::Create(uint32_t* indices, uint32_t size){
         switch (Renderer::CurrentAPI()){
-        case Renderer::API::OPENGL:
+        case API::OPENGL:
             return CreateRef<OpenGLIndexBuffer>(indices, size);
         }
         coreLogFatal("Unsupported API was detected in IndexBuffer::Create(indices, count)");

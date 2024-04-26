@@ -26,6 +26,11 @@
 #endif
 #include <GLFW/glfw3.h>
 
+#include <imgui/imgui.h>
+#include <imgui/backends/imgui_impl_opengl3.h>
+#include <imgui/backends/imgui_impl_glfw.h>
+#include <ImGuizmo/ImGuizmo.h>
+
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtx/matrix_decompose.hpp>
@@ -43,9 +48,12 @@
 #include <Engine3D/Event/ApplicationEvent.h>
 
 #include <Engine3D/Graphics/Buffer.h>
-// #include <Engine3D/Graphics/Shader.h>
-#include <Engine3D/OpenGL/OpenGLShader.h>
+#include <Engine3D/Graphics/Shader.h>
+// #include <Engine3D/OpenGL/OpenGLShader.h>
 #include <Engine3D/Graphics/VertexArray.h>
+#include <Engine3D/Graphics/Texture.h>
+// #include <Engine3D/OpenGL/OpenGLTexture.h>
+#include <Engine3D/Graphics/Pipeline.h>
 #include <Engine3D/Renderer/Renderer.h>
 
 // #include <glm/glm.hpp>

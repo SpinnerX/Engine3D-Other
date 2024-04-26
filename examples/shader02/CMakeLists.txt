@@ -15,6 +15,5 @@ target_link_libraries(
     tobanteGaming::Box2D
     yaml-cpp::yaml-cpp
     imgui
-    ImGuizmo
 	glad
 )

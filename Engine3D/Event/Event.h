@@ -48,6 +48,11 @@ namespace Engine3D{
             return outs << event.toString() << '\n';
         }
 
+        bool operator|=(bool value) {
+            isEventHandled |= value;
+            return isEventHandled;
+        }
+
     private:
         //! @note Type of Events that are going to be handled
         //! @note Name of Event being handled

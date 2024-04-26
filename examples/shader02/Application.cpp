@@ -43,18 +43,18 @@ public:
     void OnDettach() override {}
 
     //! @note Handling all of our updated events
-    void OnUpdate() override{
+    void OnUpdate(float ts) override{
         auto shader = library.Get("Color");
         shader->Bind();
         // shader2->Bind();
         glm::vec4 squareColor = {0.2f, 0.3f, 0.8f, 1.0f};
         shader->Set("u_Color", squareColor); // Setting our u_Color in glsl
         
-        Renderer::DrawIndexed(vao);
+        Pipeline::DrawCommand(vao);
     }
 
     //! @note Handling all of our events
-    void OnEvent(const Engine3D::Event& event) override {
+    void OnEvent(Event& event) override {
     }
 
     //! @note This is used for any of the UI Rendering that will happening

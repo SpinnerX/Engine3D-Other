@@ -31,6 +31,11 @@ namespace Engine3D{
         layout = l;
     }
 
+    void OpenGLVertexBuffer::SetDataInternal(void* data, uint32_t size) {
+        glBindBuffer(GL_ARRAY_BUFFER, id);
+		glBufferSubData(GL_ARRAY_BUFFER, 0, size, data);
+    }
+
     BufferLayout OpenGLVertexBuffer::getLayout() const{ return layout; }
 
     OpenGLIndexBuffer::OpenGLIndexBuffer(uint32_t* indices, uint32_t size) : count(size) {
